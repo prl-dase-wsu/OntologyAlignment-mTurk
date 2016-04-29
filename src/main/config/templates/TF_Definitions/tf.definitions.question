@@ -1,0 +1,57 @@
+  <Question>
+    <QuestionIdentifier>QUESTION_ID</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <FormattedContent><![CDATA[
+        <font size="2" color="darkblue">Read the definitions of <b>LABEL_A</b> and <b>LABEL_B</b>:</font>
+      ]]></FormattedContent>
+      <FormattedContent><![CDATA[
+      
+        <table>
+        <tr>
+           <th align="left">Label</th>
+           <th bgcolor="black" rowspan="8" width="2"></th>
+           <th align="left">Definition</th>
+        </tr>
+        <tr>
+           <td valign="top"><font color="darkblue"><b>LABEL_A</b></font></td>
+           <td>DESCRIPTION_LABEL_A</td>
+        </tr>
+        <tr>
+           <td bgcolor="black" colspan="3" height="3"></td>
+        </tr>
+        <tr>
+           <td valign="top"><font color="darkblue"><b>LABEL_B</b></font></td>
+           <td>DESCRIPTION_LABEL_B</td>
+        </tr>
+        
+        </table>
+      ]]></FormattedContent>
+      <FormattedContent><![CDATA[    
+          <font size="2" color="blue">Based on the above definitions, can <b>LABEL_A</b> be matched with <b>LABEL_B</b>?</font>
+      ]]></FormattedContent>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>        
+            <SelectionIdentifier>LABEL_A_EQUALS_LABEL_B</SelectionIdentifier>
+            <FormattedContent><![CDATA[
+              <font size="2" color="blue"><b>yes</b></font>
+            ]]></FormattedContent>          
+          </Selection>
+          <Selection>
+         
+            <SelectionIdentifier>LABEL_A_NOT_EQUAL_LABEL_B</SelectionIdentifier>
+            <FormattedContent><![CDATA[
+             <font size="2" color="blue"><b>no</b></font>
+            ]]></FormattedContent>
+             
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>

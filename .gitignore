@@ -1,0 +1,26 @@
+# Eclipse stuff
+.settings/
+
+# General Maven stuff
+target/
+**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# project specific
+data/
+
+# testng
+test-output/
+
+# Amazon conf file
+src/main/config/mturk.properties
+
+# other
+velocity.log

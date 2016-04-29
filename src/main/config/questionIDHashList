@@ -1,0 +1,200 @@
+TF_DEF_75_conference#Invited_talk_ekaw#Invited_Talk_N false
+	Corresponding hash value: 1690083972
+TF_DEF_58_iasted#Student_registration_fee_sigkdd#Registration_SIGKDD_Member_N false
+	Corresponding hash value: 1451373644
+TF_DEF_60_ekaw#Conference_Participant_iasted#Introduction_N false
+	Corresponding hash value: 441363438
+TF_DEF_88_edas#hasMember_ekaw#writtenBy_N false
+	Corresponding hash value: -179273989
+TF_DEF_8_cmt#hasBeenAssigned_edas#isReviewing_Y true
+	Corresponding hash value: 1086151482
+TF_DEF_21_ekaw#Session_Chair_iasted#Session_chair_Y true
+	Corresponding hash value: 17371388
+TF_DEF_98_conference#Written_contribution_ekaw#Evaluated_Paper_N false
+	Corresponding hash value: -1389855623
+TF_DEF_71_iasted#Item_sigkdd#Award_N false
+	Corresponding hash value: -162874494
+TF_DEF_97_confOf#hasPhone_sigkdd#Nation_N false
+	Corresponding hash value: 343086114
+TF_DEF_29_conference#Person_sigkdd#Person_Y true
+	Corresponding hash value: -645257596
+TF_DEF_85_cmt#assignedTo_ekaw#hasReview_N false
+	Corresponding hash value: 1492293596
+TF_DEF_82_ekaw#Organisation_iasted#Building_N false
+	Corresponding hash value: 574954482
+TF_DEF_36_iasted#Deadline_sigkdd#Deadline_Y true
+	Corresponding hash value: -194711894
+TF_DEF_64_conference#Topic_ekaw#Paper_N false
+	Corresponding hash value: -1252307695
+TF_DEF_1_confOf#University_ekaw#University_Y true
+	Corresponding hash value: -905734799
+TF_DEF_20_confOf#Paper_edas#Paper_Y true
+	Corresponding hash value: 456477109
+TF_DEF_27_confOf#hasEmail_sigkdd#E-mail_Y true
+	Corresponding hash value: 277979738
+TF_DEF_87_cmt#User_iasted#Delegate_N false
+	Corresponding hash value: 794969501
+TF_DEF_35_cmt#Paper_confOf#Contribution_Y true
+	Corresponding hash value: -159442352
+TF_DEF_67_conference#Chair_iasted#Tip_N false
+	Corresponding hash value: -216230647
+TF_DEF_90_confOf#Contribution_sigkdd#Award_N false
+	Corresponding hash value: 1930775115
+TF_DEF_23_conference#Accepted_contribution_edas#AcceptedPaper_Y true
+	Corresponding hash value: -72744044
+TF_DEF_37_cmt#hasAuthor_edas#isWrittenBy_Y true
+	Corresponding hash value: -2136818349
+TF_DEF_28_cmt#Conference_sigkdd#Conference_Y true
+	Corresponding hash value: 1359744327
+TF_DEF_44_cmt#Author_ekaw#Paper_Author_Y true
+	Corresponding hash value: 636180028
+TF_DEF_45_conference#Conference_fees_sigkdd#Fee_Y true
+	Corresponding hash value: -203478762
+TF_DEF_76_conference#Presentation_edas#TalkEvent_N false
+	Corresponding hash value: 35895938
+TF_DEF_12_conference#Paper_sigkdd#Paper_Y true
+	Corresponding hash value: 902310304
+TF_DEF_84_conference#Poster_ekaw#Flyer_N false
+	Corresponding hash value: -1396798129
+TF_DEF_63_conference#Conference_contributor_ekaw#Presenter_N false
+	Corresponding hash value: 1159222443
+TF_DEF_81_cmt#AuthorNotReviewer_iasted#Author_book_proceedings_included_N false
+	Corresponding hash value: -1575719186
+TF_DEF_52_confOf#writes_iasted#write_N false
+	Corresponding hash value: -496611903
+TF_DEF_77_confOf#Member_PC_edas#Reviewer_N false
+	Corresponding hash value: 26789295
+TF_DEF_74_conference#Conference_part_ekaw#Event_N false
+	Corresponding hash value: 1319680727
+TF_DEF_55_conference#has_a_location_edas#hasLocation_N false
+	Corresponding hash value: -1382601852
+TF_DEF_72_ekaw#Event_iasted#Publication_N false
+	Corresponding hash value: -309982401
+TF_DEF_69_ekaw#Academic_Institution_iasted#Place_N false
+	Corresponding hash value: 366866456
+TF_DEF_57_edas#isWrittenBy_iasted#is_writen_by_N false
+	Corresponding hash value: -1983931691
+TF_DEF_92_conference#Accepted_contribution_confOf#Event_N false
+	Corresponding hash value: -1564984352
+TF_DEF_79_conference#Call_for_participation_iasted#Transparency_N false
+	Corresponding hash value: -1245222578
+TF_DEF_38_confOf#Banquet_iasted#Dinner_banquet_Y true
+	Corresponding hash value: 1153283176
+TF_DEF_61_ekaw#Presenter_iasted#Sponsor_N false
+	Corresponding hash value: 1308414783
+TF_DEF_49_confOf#Member_PC_ekaw#PC_Member_Y true
+	Corresponding hash value: 1978539893
+TF_DEF_91_cmt#reviewsPerPaper_conference#has_a_volume_N false
+	Corresponding hash value: 1503783717
+TF_DEF_30_confOf#hasFirstName_edas#hasFirstName_Y true
+	Corresponding hash value: 2144208220
+TF_DEF_5_iasted#Speaker_sigkdd#Speaker_Y true
+	Corresponding hash value: 1479508778
+TF_DEF_18_iasted#Sponsor_sigkdd#Sponzor_Y true
+	Corresponding hash value: 2048480049
+TF_DEF_50_iasted#Author_book_proceedings_included_sigkdd#Author_of_paper_student_N false
+	Corresponding hash value: 1616243501
+TF_DEF_25_ekaw#Location_sigkdd#Place_Y true
+	Corresponding hash value: -854105712
+TF_DEF_33_confOf#Paper_sigkdd#Paper_Y true
+	Corresponding hash value: -115594176
+TF_DEF_40_edas#Paper_sigkdd#Paper_Y true
+	Corresponding hash value: -52784090
+TF_DEF_43_cmt#Document_sigkdd#Document_Y true
+	Corresponding hash value: 2082699116
+TF_DEF_51_conference#has_a_name_sigkdd#Name_N false
+	Corresponding hash value: -229518851
+TF_DEF_65_edas#hasRelatedPaper_ekaw#reviewOfPaper_N false
+	Corresponding hash value: 1160605122
+TF_DEF_59_cmt#date_conference#has_a_date_of_issue_N false
+	Corresponding hash value: -1866880725
+TF_DEF_68_cmt#readPaper_ekaw#reviewerOfPaper_N false
+	Corresponding hash value: -617148880
+TF_DEF_7_confOf#Poster_ekaw#Poster_Paper_Y true
+	Corresponding hash value: 306148066
+TF_DEF_31_confOf#Conference_ekaw#Conference_Y true
+	Corresponding hash value: 965751592
+TF_DEF_70_conference#Conference_announcement_edas#Programme_N false
+	Corresponding hash value: -597341130
+TF_DEF_6_confOf#Tutorial_iasted#Tutorial_Y true
+	Corresponding hash value: -1744871846
+TF_DEF_34_ekaw#Abstract_sigkdd#Abstract_Y true
+	Corresponding hash value: 993199608
+TF_DEF_94_edas#Presenter_sigkdd#Award_N false
+	Corresponding hash value: 263136623
+TF_DEF_95_conference#is_given_by_iasted#is_given_to_N false
+	Corresponding hash value: 1786822674
+TF_DEF_48_conference#Tutorial_confOf#Tutorial_Y true
+	Corresponding hash value: -1390442286
+TF_DEF_16_cmt#assignedTo_edas#isReviewedBy_Y true
+	Corresponding hash value: 1425995002
+TF_DEF_24_ekaw#Document_sigkdd#Document_Y true
+	Corresponding hash value: -591020725
+TF_DEF_14_conference#Topic_ekaw#Research_Topic_Y true
+	Corresponding hash value: -36245110
+TF_DEF_62_cmt#Meta-Reviewer_conference#Accepted_contribution_N false
+	Corresponding hash value: -360052041
+TF_DEF_39_conference#Conference_contribution_confOf#Contribution_Y true
+	Corresponding hash value: -552594991
+TF_DEF_56_edas#NonAcademicEvent_ekaw#Proceedings_N false
+	Corresponding hash value: -2077034875
+TF_DEF_42_edas#ConferenceEvent_ekaw#Event_Y true
+	Corresponding hash value: 1771648390
+TF_DEF_73_cmt#reviewerBiddingStartedBy_confOf#hasAdministrativeEvent_N false
+	Corresponding hash value: -573467871
+TF_DEF_96_conference#Active_conference_participant_ekaw#Individual_Presentation_N false
+	Corresponding hash value: -584395126
+TF_DEF_54_edas#Reception_iasted#Renting_N false
+	Corresponding hash value: -393904586
+TF_DEF_93_edas#Topic_ekaw#Event_N false
+	Corresponding hash value: -1520849562
+TF_DEF_89_confOf#hasPhone_edas#hasPhone_N false
+	Corresponding hash value: 2112597083
+TF_DEF_13_edas#Author_iasted#Author_Y true
+	Corresponding hash value: 813941784
+TF_DEF_47_edas#Reviewer_iasted#Reviewer_Y true
+	Corresponding hash value: -1025218387
+TF_DEF_4_conference#Program_committee_sigkdd#Program_Committee_Y true
+	Corresponding hash value: -786398363
+TF_DEF_17_edas#ConferenceVenuePlace_sigkdd#Conference_hall_Y true
+	Corresponding hash value: -914197576
+TF_DEF_41_edas#startDate_sigkdd#Start_of_conference_Y true
+	Corresponding hash value: 245322622
+TF_DEF_2_conference#Paper_edas#Paper_Y true
+	Corresponding hash value: 409054362
+TF_DEF_46_conference#Organizing_committee_sigkdd#Organizing_Committee_Y true
+	Corresponding hash value: -1798383951
+TF_DEF_15_edas#hasCostAmount_sigkdd#Price_Y true
+	Corresponding hash value: -1452567400
+TF_DEF_32_edas#Document_iasted#Document_Y true
+	Corresponding hash value: 949991349
+TF_DEF_78_ekaw#Paper_Author_sigkdd#Author_of_paper_N false
+	Corresponding hash value: -98937713
+TF_DEF_86_conference#Topic_ekaw#Event_N false
+	Corresponding hash value: -857230625
+TF_DEF_66_ekaw#Track_iasted#Tip_N false
+	Corresponding hash value: -2041030718
+TF_DEF_10_confOf#Topic_edas#Topic_Y true
+	Corresponding hash value: -1125964170
+TF_DEF_26_confOf#Workshop_ekaw#Workshop_Y true
+	Corresponding hash value: -1283004636
+TF_DEF_3_edas#Author_ekaw#Paper_Author_Y true
+	Corresponding hash value: 633336938
+TF_DEF_22_cmt#Author_conference#Regular_author_Y true
+	Corresponding hash value: 1787837900
+TF_DEF_80_iasted#has_amount_of_sigkdd#Price_N false
+	Corresponding hash value: 807667904
+TF_DEF_53_confOf#Participant_ekaw#Session_N false
+	Corresponding hash value: -1852094888
+TF_DEF_19_confOf#Country_iasted#State_Y true
+	Corresponding hash value: 802587297
+TF_DEF_83_confOf#Working_event_ekaw#Multi-author_Volume_N false
+	Corresponding hash value: -267882624
+TF_DEF_9_conference#Review_ekaw#Review_Y true
+	Corresponding hash value: 610738476
+TF_DEF_11_edas#Review_sigkdd#Review_Y true
+	Corresponding hash value: -1442918450
+TF_DEF_0_confOf#writtenBy_edas#isWrittenBy_Y true
+	Corresponding hash value: -1967476433
+TF_DEF_99_confOf#Camera_Ready_event_ekaw#Camera_Ready_Paper_N false
+	Corresponding hash value: 2112833665

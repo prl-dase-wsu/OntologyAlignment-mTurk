@@ -1,0 +1,164 @@
+http://confOf#writtenBy - A document is written by a person when that person is responsible for the content within the document. 
+http://edas#isWrittenBy - A paper is written by a person when that person is responsible for the content within the paper. 
+http://confOf#University - An organization which has students who study at it
+http://ekaw#University - An academic institution of where students go to learn. 
+http://conference#Paper - A written document which is a contribution to a conference. 
+http://edas#Paper - A document which is written by a person. A paper can be reviewed, submitted, rejected, published at a conference. 
+http://edas#Author - A person that has a related document written by them.
+http://ekaw#Paper_Author - A person who writes a paper. 
+http://conference#Program_committee - A committee which governs the process of a conference. 
+http://sigkdd#Program_Committee - A committee which governs the process of a conference.
+http://iasted#Speaker - A delegate who both writes a final manuscript and gives a lecture at a conference. 
+http://sigkdd#Speaker - A person who presents a document at a conference. 
+http://confOf#Tutorial - A working event where instruction is given about a particular topic. A tutorial is different from a workshop.
+http://iasted#Tutorial - A working event where instruction is given about a particular topic.
+http://confOf#Poster - A poster is a contribution of work displayed on a paper poster. A poster is different from a paper in that one uses a poster board to display information about a topic.
+http://ekaw#Poster_Paper - A way of presenting a research or education paper by posting text, images, and graphics on a flat surface (usually 1m x 1m) such as a corkboard.
+http://cmt#hasBeenAssigned - A reviewer can be assigned to paper that needs to be reviewed.
+http://edas#isReviewing - A reviewer or committee member can review a paper.
+http://conference#Review - A conference document which provides a summary and comments regarding the structure and content of a submitted paper. 
+http://ekaw#Review - A document which describes a submitted paper and suggests whether it was a good, neutral, or bad paper. 
+http://confOf#Topic - The subject of a paper or discussion
+http://edas#Topic - The subject of a paper or discussion
+http://edas#Review - A conference document which provides a summary and comments regarding the structure and content of a submitted paper.
+http://sigkdd#Review - A conference document which provides a summary and comments regarding the structure and content of a submitted paper.
+http://sigkdd#Paper - A document covering a specific topic that is submitted to a conference.
+http://iasted#Author - A person who contributes to a paper and speaks at a conference about that paper. 
+http://conference#Topic - The subject of a workshop or session at a conference
+http://ekaw#Research_Topic - The subject of a paper or discussion regarding some form of research 
+http://edas#hasCostAmount - the price to be paid to get into, produce, maintain, or sponsor a conference. 
+http://sigkdd#Price - the amount of money required to gain access to a conference. A registration fee. 
+http://cmt#assignedTo - A document can be assigned to be reviewed by a person. 
+http://edas#isReviewedBy - A paper can be reviewed by a person. 
+http://edas#ConferenceVenuePlace - A location where the conference takes place. 
+http://sigkdd#Conference_hall - A place where a conference is held. 
+http://iasted#Sponsor - Person or organization that gives a sponsorship. 
+http://sigkdd#Sponzor - Person or organization that pays a sponsor fee. 
+http://confOf#Country - State, nation, or territory of organization or person. 
+http://iasted#State - A location in which a conference occurs. 
+http://confOf#Paper - A paper is a contribution to one of the academic fields.
+http://ekaw#Session_Chair - Is a person that can review papers and participate in a conference. 
+http://iasted#Session_chair - Is a person that introduces a speaker during a conference. 
+http://cmt#Author - A person that can submit a document to and attend a conference. 
+http://conference#Regular_author - A person who contributes to papers and conferences.
+http://conference#Accepted_contribution - A camera ready submission to a conference that has been reviewed and will be included in said conference.
+http://edas#AcceptedPaper - A paper that has been approved and will be included in a conference. 
+http://ekaw#Document - A paper, website, brochure, review, etc. which has a author and possibly multiple versions.
+http://sigkdd#Document - A review, paper, or abstract that is submitted or presented by a person. 
+http://ekaw#Location - The place that a conference or other activity is held in.
+http://sigkdd#Place - A location which people can stay in for work or conference. 
+http://confOf#Workshop - a seminar, discussion group, working event, or the like, that emphasizes exchange of ideas and the demonstration and application of techniques, skills, etc.
+http://ekaw#Workshop - A scientific event at which ideas are exchanged or demonstration of applications or techniques are given.
+http://confOf#hasEmail - A person has a email if they have a specific address for sending messages from themselves to another via telecommunications links between computers.
+http://sigkdd#Email - A person has a email if they have a unique address used for sending messages from them to others via the internet. 
+http://cmt#Conference - A gathering of researchers (not necessarily all academics) to present and discuss their work. 
+http://sigkdd#Conference - A gathering of researchers (not necessarily all academics) to present and discuss their work. 
+http://conference#Person - An individual who has a name and email and who has contributed any part to a conference.
+http://sigkdd#Person - An individual who has an identity and takes part in a conference.
+http://confOf#hasFirstName - A given name used to address a person
+http://edas#hasFirstName - A given name used to address a person
+http://confOf#Conference - A working event where researchers gather (not necessarily all academics) to present and discuss their work. 
+http://ekaw#Conference - A scientific event where researchers gather (not necessarily all academics) to present and discuss their work. 
+http://edas#Document - A slide set, review, program, paper, etc which contains written information
+http://iasted#Document - A form, paper, submission etc. which contains written information.
+http://ekaw#Abstract - A document which contains a summary of a text, scientific article, document, speech, etc.
+http://sigkdd#Abstract - A document which contains a summary of a text, scientific article, document, speech, etc. and is submitted to a conference by an �abstract submission deadline� 
+http://cmt#Paper - A document which is created and submitted by authors and then is reviewed and accepted or rejected by a conference. 
+http://confOf#Contribution - A paper or poster that is created by people and submitted to a conference. 
+http://iasted#Deadline - A time in which an activity needs to be concluded or a document needs to be submitted. 
+http://sigkdd#Deadline - A date by which all documents need to be submitted
+http://cmt#hasAuthor - If a person contributes to a document then that document has an author. 
+http://confOf#Banquet - A social event at which entertainment and food is provided. 
+http://iasted#Dinner_banquet - A social program which people attend and food is provided. 
+http://conference#Conference_contribution - A document or presentation submitted and/or presented at a conference.
+http://edas#startDate - a specific month, day, and year when a conference begins
+http://sigkdd#Start_of_conference - a specific month, day, and year when a conference begins
+http://edas#ConferenceEvent - An event which occurs at a conference at a specific location and time and has attendees. 
+http://ekaw#Event - A social or scientific gathering of conference attendees in a certain location at a certain time. 
+http://cmt#Document - A review, paper, poster etc submitted to a conference. 
+http://conference#Conference_fees - A sum paid or charged for admission to a conference
+http://sigkdd#Fee - A sum paid or charged for admission to a conference or as a sponsorship for a conference.
+http://conference#Organizing_committee - A group of persons appointed to help coordinate and systemize a conference or a part of a conference.
+http://sigkdd#Organizing_Committee - A group of persons appointed to help coordinate and systemize a conference or a part of a conference.
+http://edas#Reviewer - A person who performs a critical analysis of a  document submitted to a conference. 
+http://iasted#Reviewer - A person who gives constructive feedback of a submitted document
+http://conference#Tutorial - A part of a conference where an expert gives instruction on a particular topic.
+http://confOf#Member_PC - A person who is an expert on a specific topic and reviews papers on that specific topic.
+http://ekaw#PC_Member - A person who is part of the program committee (could be a workshop or session chair) and reviews papers. 
+http://iasted#Author_book_proceedings_included - Author activities or presentations associated with a book or publication. 
+http://sigkdd#Author_of_paper_student - An award given to the best student author. 
+http://conference#has_a_name - a word or a combination of words by which a conference, proceedings, topic, or publisher is designated, called, or known.
+http://sigkdd#Name - a word or combination is words by which a person is known. 
+http://confOf#writes - An author writes when they have contributed to a paper that is submitted to a conference. 
+http://iasted#write - A person writes a when they have contributed to an item in a conference. 
+http://confOf#Participant - A person who in any way takes part in a conference. 
+http://ekaw#Session - A scientific event part of a conference in which an individual presentation takes place. 
+http://edas#Reception - A social event for people who attended a conference.
+http://iasted#Renting - A process in which money is exchanged for the use of or possession of something (such as a rental car). 
+http://conference#has_a_location - The place in which something can be found. 
+http://edas#hasLocation - A place in which an event is held. 
+http://edas#NonAcademicEvent - An event that occurs at a conference but is not related to academics such as a social event or meals. 
+http://ekaw#Proceedings - A record of the doings or transactions (papers) of a conference
+http://iasted#is_writen_by - A item is writen by a person when that person contributes to that item. 
+http://iasted#Student_registration_fee - A payment made by a student to attend a conference. 
+http://sigkdd#Registration_SIGKDD_Member - A fee paid by a conference attendee.
+http://cmt#date - The day, month, and year in which a conference occurs. 
+http://conference#has_a_date_of_issue - The day, month, and year in which a conference document is printed or published and distributed.
+http://ekaw#Conference_Participant - A person who partakes in a conference.
+http://iasted#Introduction - A preliminary presentation given at the start of a conference which officially begins the conference. 
+http://ekaw#Presenter - A person who speaks at a conference. 
+http://cmt#Meta_Reviewer - A person who supervises the review process for one paper or summarize the reviews of the other reviewers. They provide support to the review process. 
+http://conference#Conference_contributor - A person who submits a document to a conference. 
+http://ekaw#Paper - A documented submitted to a conference for publication in the conference proceedings or a journal. 
+http://edas#hasRelatedPaper - An author has a related paper if they have contributed to the paper. 
+http://ekaw#reviewOfPaper - A document is a paper review if the document summarizes and provides feedback regarding the paper. 
+http://ekaw#Track - A specific area or topic for which authors can submit their papers to. 
+http://iasted#Tip - Money paid in excess to what is owed for exceptional service.
+http://conference#Chair - A committee member who helps in the organization of a specific area of a conference. 
+http://cmt#readPaper - A paper is read by the reviewer of the paper. 
+http://ekaw#reviewerOfPaper - A person who provides feedback and a recommendation for whether a paper should be accepted to a conference. 
+http://ekaw#Academic_Institution - An organization which is dedicated to research and education such as an university.
+http://iasted#Place - A city, state, and country or building and room number in which a event occurs.
+http://conference#Conference_announcement - A formal public notice given to the attendees of the conference. 
+http://edas#Programme - A document containing a plan or schedule regarding when events will take place at a conference. 
+http://iasted#Item - Any article or particular that is related to a conference.
+http://sigkdd#Award - Recognition given to an attendee of a conference for exemplary work.
+http://iasted#Publication - The final book, journal, or cd that is published after the conclusion of a conference. 
+http://cmt#reviewerBiddingStartedBy - Before the assignment of papers to reviewers take place, the conference administrators gives the option to reviewers to bid for specific papers (papers that have already been submitted).
+http://confOf#hasAdministrativeEvent - A conference has working events in which the details of the conference are discussed and arranged.
+http://conference#Conference_part - Any division or section of the conference, including sessions, workshops, tutorials, etc. 
+http://conference#Invited_talk - A presentation at which people are invited to talk.
+http://ekaw#Invited_Talk - An individual presentation at which the presenter was invited to talk. 
+http://conference#Presentation - A contribution to a conference at which someone talks about the work they have done. 
+http://edas#TalkEvent - Welcome and closing events which start and end the conference. 
+http://sigkdd#Author_of_paper - A person who contributed to a paper and who can receive an award for said paper.  
+http://conference#Call_for_participation - Announcement which asks for people to submit documents to a conference. 
+http://iasted#Transparency - A document prepared by a speaker briefly describing what they will be speaking about. 
+http://iasted#has_amount_of - The total cost a person is required to pay to obtain something. 
+http://cmt#AuthorNotReviewer - A person who contributes to a document that is submitted to a conference.
+http://ekaw#Organisation - A group of people or association which helps with any part of a conference. 
+http://iasted#Building - A structure in which events occur or an organization works out of. 
+http://confOf#Working_event - An event in which something constructive is accomplished. 
+http://ekaw#Multi_author_Volume - A collection of written or printed sheets created by multiple people bound together and constituting a book.
+http://conference#Poster - A contribution to a conference printed on poster board.
+http://ekaw#Flyer - A brochure advertising or containing quick facts about a conference 
+http://ekaw#hasReview - A paper has a review if a person provided feedback and a suggestion for acceptance. 
+http://cmt#User - A person.
+http://iasted#Delegate - A person sent or authorized to represent others, in particular an elected representative sent to a conference.
+http://edas#hasMember - A conference has members who are people.
+http://ekaw#writtenBy - A document is written by a person when that person contributes to the document.
+http://confOf#hasPhone - People have phones when they have a means for people to contact them via a phone call.
+http://edas#hasPhone - People have phones when they provide contact information to a conference.
+http://cmt#reviewsPerPaper - A number which describes how many reviews have been submitted for a specific paper. 
+http://conference#has_a_volume - The number which relates to the total years that a conference has been held. For example: The THIRD annual X conference. 
+http://confOf#Event - A gathering of people at a specific place and time to achieve something. 
+http://edas#Presenter - An author who speaks about his submission.
+http://conference#is_given_by - A presentation is given by a person when that person speaks about a specific topic to a group of people. 
+http://iasted#is_given_to - An item is given to a person when a person acquires an item from someone. 
+http://conference#Active_conference_participant - A person who speaks or contributes to a conference. 
+http://ekaw#Individual_Presentation - A scientific event at which a paper is presented or an invited speaker gives a talk about a specific topic. 
+http://sigkdd#Nation - The name of a large body of people, associated with a particular territory or country.
+http://conference#Written_contribution - A document submitted to a conference for publication. 
+http://ekaw#Evaluated_Paper - A paper that has successfully been assigned to and reviewed by at least 3 reviewers 
+http://confOf#Camera_Ready_event - A date at which documents which, from a technical standpoint, ready to "go to press", or be printed, have to be submitted to a conference.
+http://ekaw#Camera_Ready_Paper - A paper that from a technical standpoint are ready to "go to press" or are ready to be printed

@@ -1,0 +1,10 @@
+Amazon Mechanical Turk SDK for Java
+Copyright (c) 2007-2016 Amazon.com, Inc. or its affiliates. All Rights Reserved. 
+
+This product includes software developed by Amazon Technologies, Inc.
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+
+This product includes the Web Services Description Language for Java Toolkit (WSDL4J). You can find the source code for WSDL4J at http://sourceforge.net/projects/wsdl4j.

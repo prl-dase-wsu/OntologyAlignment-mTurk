@@ -1,0 +1,42 @@
+	<Question>
+	    <QuestionIdentifier>BASIC_QUESTION</QuestionIdentifier>
+	    <IsRequired>true</IsRequired>
+	    <QuestionContent>
+	      <FormattedContent><![CDATA[
+	        <font size="4" color="darkblue">If you got to this point, please pick the answer marked as "This is the correct answer".</font>
+	      ]]></FormattedContent>
+	    </QuestionContent>
+	    <AnswerSpecification>
+	      <SelectionAnswer>
+	        <MinSelectionCount>1</MinSelectionCount>
+	        <MaxSelectionCount>1</MaxSelectionCount>
+	        <StyleSuggestion>radiobutton</StyleSuggestion>
+	        <Selections>
+	          <Selection>
+	            <SelectionIdentifier>NOT_CORRECT</SelectionIdentifier>
+	            <FormattedContent><![CDATA[
+	              <font size="4" color="darkblue"><b>This is not the correct answer.</b></font>
+	            ]]></FormattedContent>
+	          </Selection>
+	          <Selection>
+	            <SelectionIdentifier>NOT_CORRECT</SelectionIdentifier>
+	            <FormattedContent><![CDATA[
+	             <font size="4" color="darkblue"><b>Wibbly-wobbly, timey-wimey stuff.</b></font>
+	            ]]></FormattedContent>
+	          </Selection>
+	          <Selection>
+	            <SelectionIdentifier>CORRECTr</SelectionIdentifier>
+	            <FormattedContent><![CDATA[
+	             <font size="4" color="darkblue"><b>This is the correct answer</b></font>
+	            ]]></FormattedContent>
+	          </Selection>
+	          <Selection>
+	            <SelectionIdentifier>NOT_CORRECT</SelectionIdentifier>
+	            <FormattedContent><![CDATA[
+	             <font size="4" color="darkblue"><b>Strawberry.</b></font>
+	            ]]></FormattedContent>
+	          </Selection>
+	        </Selections>
+	      </SelectionAnswer>
+	    </AnswerSpecification>
+	  </Question>

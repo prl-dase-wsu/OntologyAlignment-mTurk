@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Overview>
+    <FormattedContent><![CDATA[
+      <h1 align="center">Matching labels from different databases</h1>
+      <h2>Instructions</h2>
+      For each question your task is to determine which of three labels is the best match for the other label. It's possible 
+      that there is no match among the proposed answers - in this case please choose "There is no relation between the entities". The labels represent various 
+      terms and/or concepts. In order to provide you with the context (i.e. meaning) of the label we described each 
+      label by various relationships between the label and other terms/concepts that relate to the label. To answer the questions you should use your
+      knowledge of English, common sense, and the relationships we provide for each of the labels. Do not try to look up the 
+      definition of the label by, for example, Googling it. In some cases it may be difficult to determine whether two 
+      labels match or not, so please choose the answer you feel is the best. <br />
+      It might help to think of the task you are about to do like this: if I were querying multiple datasets based on these terms, 
+      would it make sense to lump the results from some of the datasets together?
+      <br />
+      Note: This HIT contains ten questions and pays <b> 25 cents (search for "Matching labels from different databases" or "DaSeLab" to find 
+      similar HITS of this type)</b>.
+      <h2>Task</h2>
+    ]]></FormattedContent>
+  </Overview>

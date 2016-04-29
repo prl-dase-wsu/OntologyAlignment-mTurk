@@ -1,0 +1,2850 @@
+<http://confOf#writtenBy>
+X writes Y if and only if Y is written by X.
+If X is written by Y then X is a contribution.
+If X is written by Y then Y is an author.
+<http://edas#isWrittenBy>
+X has as related paper Y if and only if Y is written by X.
+If X is written by Y then X is a paper.
+If X is written by Y then Y is an author.
+<http://confOf#University>
+No company is an university.
+If X is study at Y then Y is an university.
+A scholar is study at only an university.
+A scholar is study at an university.
+An university is an organization.
+<http://ekaw#University>
+An university is an academic institution.
+<http://conference#Paper>
+The data property "is a date of camera ready paper submission" is functional.
+The data property "is a full paper submission date" is functional.
+If X is a date of camera ready paper submission Y then X is an important dates.
+If X is a full paper submission date Y then X is an important dates.
+If X is a date of camera ready paper submission Y then Y is a date.
+If X is a full paper submission date Y then Y is a date.
+No extended abstract is a paper.
+A regular contribution is defined as something that is an extended abstract, or is a paper.
+If X has as an abstract Y then X is a paper, is a poster, or is a presentation.
+If X is the 1th part of Y then Y is a paper, is a poster, or is a presentation.
+A call for paper is a conference document.
+A paper is a regular contribution.
+<http://edas#Paper>
+If X is paper due on Y then X is a conference.
+If X is paper due on Y then Y is a date time.
+No accepted paper is an active paper.
+No accepted paper is a pending paper.
+No accepted paper is a published paper.
+No accepted paper is a rejected paper.
+No accepted paper is a withdrawn paper.
+No active paper is a pending paper.
+No active paper is a published paper.
+No active paper is a rejected paper.
+No active paper is a withdrawn paper.
+No conference is a paper.
+No meal menu is a paper.
+No organizational meeting is a paper presentation.
+No paper is a programme.
+No paper is a review.
+No paper is a slide set.
+No paper presentation is a talk event.
+No paper presentation is a workshop.
+No pending paper is a published paper.
+No pending paper is a rejected paper.
+No pending paper is a withdrawn paper.
+No published paper is a rejected paper.
+No published paper is a withdrawn paper.
+No rejected paper is a withdrawn paper.
+An author is defined as a person that has as related document a paper.
+A rated papers is defined as something that has as rating a review rating.
+A reviewer is defined as a person that is reviewing a paper.
+X has as related paper Y if and only if Y is written by X.
+X is related to event Y if and only if Y is related to paper X.
+If X has as rating Y then X is an active paper.
+If X has as related paper Y then X is an author.
+If X has as topic Y then X is a conference, or is a paper.
+If X is reviewed by Y then X is a paper.
+If X is written by Y then X is a paper.
+If X is related to event Y then X is an accepted paper.
+If X is related to paper Y then X is a paper presentation.
+If X has as related paper Y then Y is a paper.
+If X is reviewing Y then Y is a paper.
+If X is topic of Y then Y is a conference, or is a paper.
+If X is related to event Y then Y is a paper presentation.
+If X is related to paper Y then Y is an accepted paper.
+An accepted paper is a paper.
+An active paper is a paper.
+A call for papers is a call.
+A conference is paper due on at most one thing.
+A paper is a document.
+A paper presentation is an academic event.
+A pending paper is a paper.
+A published paper is a paper.
+A rated papers is an active paper.
+A rejected paper is a paper.
+A withdrawn paper is a paper.
+<http://edas#Author>
+No author is a conference chair.
+No author is a session chair.
+No author is a tpcmember.
+An author is defined as a person that has as related document a paper.
+If X has as related paper Y then X is an author.
+If X is written by Y then Y is an author.
+A presenter is an author.
+<http://ekaw#Paper_Author>
+A paper author is a person.
+<http://conference#Program_committee>
+The object property "has as a program committee" is functional.
+The object property "was a program committee of" is inverse-functional.
+No organizing committee is a program committee.
+No program committee is a steering committee.
+A committee is defined as something that is an organizing committee, is a program committee, or is a steering committee.
+X was a program committee of Y if and only if Y has as a program committee X.
+If X has as a program committee Y then X is a conference volume.
+If X was a program committee of Y then X is a program committee.
+If X has as a program committee Y then Y is a program committee.
+If X was a program committee of Y then Y is a conference volume.
+A program committee is a committee.
+The property "has as a program committee" is a sub-property of "has as a commtitee".
+The property "was a program committee of" is a sub-property of "was a committee of".
+<http://sigkdd#Program_Committee>
+A program committee is a committee.
+A program committee member is an organizator.
+<http://iasted#Speaker>
+No non speaker is a speaker.
+A plenary lecture is defined as something that is given by a plenary lecture speaker.
+A plenary lecture speaker is defined as something that is give a tutorial.
+A session chair is defined as something that is go through an introduction of speaker.
+A student non speaker is defined as something that is pay a student registration fee.
+A tutorial is defined as something that is given by a tutorial speaker.
+A tutorial speaker is defined as something that is give a plenary lecture.
+A worker non speaker is defined as something that is pay a nonauthor registration fee.
+An audiovisual equipment is used by a speaker.
+An author is a speaker.
+An introduction of speaker is an introduction.
+A non speaker is a delegate.
+A nonauthor registration fee is designed for a non speaker.
+A plenary lecture speaker is an author.
+A plenary lecture speaker is speak in a conference hall.
+A reviewer is a speaker.
+A speaker is a delegate.
+A speaker is give a lecture.
+A speaker is write a final manuscript.
+A speaker lecture is a session.
+A student non speaker is a non speaker.
+A student registration fee is designed for something that is a student lecturer, or is a student non speaker.
+A submission is writen by a speaker.
+A transparency is prepared by a speaker.
+A tutorial speaker is an author.
+A tutorial speaker is speak in a conference hall.
+A worker non speaker is a non speaker.
+<http://sigkdd#Speaker>
+A speaker is defined as something that is presentation a document.
+If X is presentation Y then X is a speaker.
+If X is presentationed by Y then Y is a speaker.
+An author is a speaker.
+An invited speaker is a speaker.
+A speaker is a person.
+<http://confOf#Tutorial>
+No conference is a tutorial.
+No tutorial is a workshop.
+A tutorial is a working event.
+<http://iasted#Tutorial>
+A plenary lecture speaker is defined as something that is give a tutorial.
+A tutorial is defined as something that is given by a tutorial speaker.
+A tutorial speaker is defined as something that is give a plenary lecture.
+A tutorial is a lecture.
+A tutorial speaker is an author.
+A tutorial speaker is speak in a conference hall.
+<http://confOf#Poster>
+No paper is a poster.
+No poster is a short paper.
+A poster is a contribution.
+<http://ekaw#Poster_Paper>
+No demo paper is a poster paper.
+No industrial paper is a poster paper.
+No poster paper is a regular paper.
+A poster paper is a paper.
+<http://cmt#hasBeenAssigned>
+<http://edas#isReviewing>
+A reviewer is defined as a person that is reviewing a paper.
+X is reviewing Y if and only if Y is reviewed by X.
+If X is reviewing Y then X is a conference chair, is a reviewer, is a session chair, or is a tpcmember.
+If X is reviewing Y then Y is a paper.
+<http://conference#Review>
+The object property "reviews" is functional.
+The object property "belongs to a review reference" is inverse-functional.
+The object property "has as a review" is inverse-functional.
+The object property "has as a review expertise" is inverse-functional.
+The object property "has as been assigned a review reference" is inverse-functional.
+If X has as a degree Y then X is a review preference.
+If X has as an expertise Y then X is a review expertise.
+A reviewed contribution is defined as something that is an accepted contribution, or is a rejected contribution.
+X belongs to reviewers Y if and only if Y has as a review reference or expertise X.
+X has as a review Y if and only if Y reviews X.
+X has as a submitted contribution Y if and only if Y has as a review expertise X.
+X has as a topic or a submission contribution Y if and only if Y has as been assigned a review reference X.
+X invites co reviewers Y if and only if Y is invited by X.
+If X belongs to a review reference Y then X is a topic.
+If X belongs to reviewers Y then X is a review expertise, or is a review preference.
+If X has as a review Y then X is a reviewed contribution.
+If X has as a review expertise Y then X is a submitted contribution.
+If X has as a review reference or expertise Y then X is a reviewer.
+If X has as a submitted contribution Y then X is a review expertise.
+If X has as a topic or a submission contribution Y then X is a review preference.
+If X has as been assigned a review reference Y then X is a submitted contribution, or is a topic.
+If X is invited by Y then X is a reviewer.
+If X invites co reviewers Y then X is a reviewer.
+If X reviews Y then X is a review.
+If X belongs to a review reference Y then Y is a review preference.
+If X belongs to reviewers Y then Y is a reviewer.
+If X has as a review Y then Y is a review.
+If X has as a review expertise Y then Y is a review expertise.
+If X has as a review reference or expertise Y then Y is a review expertise, or is a review preference.
+If X has as been assigned a review reference Y then Y is a review preference.
+If X is invited by Y then Y is a reviewer.
+If X invites co reviewers Y then Y is a reviewer.
+If X reviews Y then Y is a reviewed contribution.
+An accepted contribution is a reviewed contribution.
+A rejected contribution is a reviewed contribution.
+A review is a conference document.
+A review has as authors only a reviewer.
+A review expertise is a thing.
+A review expertise belongs to reviewers a reviewer.
+A review expertise has as a submitted contribution a submitted contribution.
+A review preference is a thing.
+A review preference belongs to reviewers a reviewer.
+A review preference has as a topic or a submission contribution something that is a submitted contribution, or is a topic.
+A reviewed contribution is a submitted contribution.
+A reviewer is a person.
+<http://ekaw#Review>
+No flyer is a review.
+No multi author volume is a review.
+No negative review is a neutral review.
+No negative review is a positive review.
+No neutral review is a positive review.
+No paper is a review.
+No proceedings is a review.
+No programme brochure is a review.
+No review is a web site.
+X has as review Y if and only if Y is review of paper X.
+X is reviewer of paper Y if and only if Y has as reviewer X.
+If X has as review Y then X is a paper.
+If X has as reviewer Y then X is a paper.
+If X is review of paper Y then X is a review.
+If X is review written by Y then X is a review.
+If X is reviewer of paper Y then X is a possible reviewer.
+If X has as review Y then Y is a review.
+If X has as reviewer Y then Y is a possible reviewer.
+If X is review of paper Y then Y is a paper.
+If X is review written by Y then Y is a possible reviewer.
+If X is reviewer of paper Y then Y is a paper.
+An accepted paper has as review a positive review.
+An assigned paper has as reviewer at least three things.
+An evaluated paper has as review at least three things.
+A negative review is a review.
+A neutral review is a review.
+A pc member is a possible reviewer.
+A positive review is a review.
+A possible reviewer is a person.
+A review is a document.
+The property "is review written by" is a sub-property of "is written by".
+<http://confOf#Topic>
+No city is a topic.
+No contribution is a topic.
+No country is a topic.
+No event is a topic.
+No organization is a topic.
+No person is a topic.
+If X has as topic Y then X is a working event.
+If X deals with Y then Y is a topic.
+If X is expert on Y then Y is a topic.
+If X has as topic Y then Y is a topic.
+A contribution deals with only a topic.
+A contribution deals with a topic.
+A member pc is expert on only a topic.
+A member pc is expert on a topic.
+A working event has as topic only a topic.
+A working event has as topic a topic.
+<http://edas#Topic>
+No antennas topic is a cadtopic.
+No antennas topic is a communication theory topic.
+No antennas topic is a communications topic.
+No antennas topic is a computer architecture topic.
+No antennas topic is a computer networks topic.
+No antennas topic is a cryptography topic.
+No antennas topic is a medicine topic.
+No antennas topic is a microelectronics topic.
+No antennas topic is a mobile computing topic.
+No antennas topic is a multimedia topic.
+No antennas topic is an operating topicsystems.
+No antennas topic is a parallel and distributed computing topic.
+No antennas topic is a performance topic.
+No antennas topic is a powerline transmission topic.
+No antennas topic is a radio communications topic.
+No antennas topic is a satellite and space communications topic.
+No antennas topic is a security topic.
+No antennas topic is a signal processing topic.
+No antennas topic is a test only topic.
+No antennas topic is a wireless communications topic.
+No cadtopic is a communication theory topic.
+No cadtopic is a communications topic.
+No cadtopic is a computer architecture topic.
+No cadtopic is a computer networks topic.
+No cadtopic is a cryptography topic.
+No cadtopic is a medicine topic.
+No cadtopic is a microelectronics topic.
+No cadtopic is a mobile computing topic.
+No cadtopic is a multimedia topic.
+No cadtopic is an operating topicsystems.
+No cadtopic is a parallel and distributed computing topic.
+No cadtopic is a performance topic.
+No cadtopic is a powerline transmission topic.
+No cadtopic is a radio communications topic.
+No cadtopic is a satellite and space communications topic.
+No cadtopic is a security topic.
+No cadtopic is a signal processing topic.
+No cadtopic is a test only topic.
+No cadtopic is a wireless communications topic.
+No call is a topic.
+No communication theory topic is a communications topic.
+No communication theory topic is a computer architecture topic.
+No communication theory topic is a computer networks topic.
+No communication theory topic is a cryptography topic.
+No communication theory topic is a medicine topic.
+No communication theory topic is a microelectronics topic.
+No communication theory topic is a mobile computing topic.
+No communication theory topic is a multimedia topic.
+No communication theory topic is an operating topicsystems.
+No communication theory topic is a parallel and distributed computing topic.
+No communication theory topic is a performance topic.
+No communication theory topic is a powerline transmission topic.
+No communication theory topic is a radio communications topic.
+No communication theory topic is a satellite and space communications topic.
+No communication theory topic is a security topic.
+No communication theory topic is a signal processing topic.
+No communication theory topic is a test only topic.
+No communication theory topic is a wireless communications topic.
+No communications topic is a computer architecture topic.
+No communications topic is a computer networks topic.
+No communications topic is a cryptography topic.
+No communications topic is a medicine topic.
+No communications topic is a microelectronics topic.
+No communications topic is a mobile computing topic.
+No communications topic is a multimedia topic.
+No communications topic is an operating topicsystems.
+No communications topic is a parallel and distributed computing topic.
+No communications topic is a performance topic.
+No communications topic is a powerline transmission topic.
+No communications topic is a radio communications topic.
+No communications topic is a satellite and space communications topic.
+No communications topic is a security topic.
+No communications topic is a signal processing topic.
+No communications topic is a test only topic.
+No communications topic is a wireless communications topic.
+No computer architecture topic is a computer networks topic.
+No computer architecture topic is a cryptography topic.
+No computer architecture topic is a medicine topic.
+No computer architecture topic is a microelectronics topic.
+No computer architecture topic is a mobile computing topic.
+No computer architecture topic is a multimedia topic.
+No computer architecture topic is an operating topicsystems.
+No computer architecture topic is a parallel and distributed computing topic.
+No computer architecture topic is a performance topic.
+No computer architecture topic is a powerline transmission topic.
+No computer architecture topic is a radio communications topic.
+No computer architecture topic is a satellite and space communications topic.
+No computer architecture topic is a security topic.
+No computer architecture topic is a signal processing topic.
+No computer architecture topic is a test only topic.
+No computer architecture topic is a wireless communications topic.
+No computer networks aapplications topic is a computer networks enterprise topic.
+No computer networks aapplications topic is a computer networks management topic.
+No computer networks aapplications topic is a computer networks measurements topic.
+No computer networks aapplications topic is a computer networks optical topic.
+No computer networks aapplications topic is a computer networks security topic.
+No computer networks aapplications topic is a computer networks sensor topic.
+No computer networks aapplications topic is a computer networks switching topic.
+No computer networks enterprise topic is a computer networks management topic.
+No computer networks enterprise topic is a computer networks measurements topic.
+No computer networks enterprise topic is a computer networks optical topic.
+No computer networks enterprise topic is a computer networks security topic.
+No computer networks enterprise topic is a computer networks sensor topic.
+No computer networks enterprise topic is a computer networks switching topic.
+No computer networks management topic is a computer networks measurements topic.
+No computer networks management topic is a computer networks optical topic.
+No computer networks management topic is a computer networks security topic.
+No computer networks management topic is a computer networks sensor topic.
+No computer networks management topic is a computer networks switching topic.
+No computer networks measurements topic is a computer networks optical topic.
+No computer networks measurements topic is a computer networks security topic.
+No computer networks measurements topic is a computer networks sensor topic.
+No computer networks measurements topic is a computer networks switching topic.
+No computer networks optical topic is a computer networks security topic.
+No computer networks optical topic is a computer networks sensor topic.
+No computer networks optical topic is a computer networks switching topic.
+No computer networks security topic is a computer networks sensor topic.
+No computer networks security topic is a computer networks switching topic.
+No computer networks sensor topic is a computer networks switching topic.
+No computer networks topic is a cryptography topic.
+No computer networks topic is a medicine topic.
+No computer networks topic is a microelectronics topic.
+No computer networks topic is a mobile computing topic.
+No computer networks topic is a multimedia topic.
+No computer networks topic is an operating topicsystems.
+No computer networks topic is a parallel and distributed computing topic.
+No computer networks topic is a performance topic.
+No computer networks topic is a powerline transmission topic.
+No computer networks topic is a radio communications topic.
+No computer networks topic is a satellite and space communications topic.
+No computer networks topic is a security topic.
+No computer networks topic is a signal processing topic.
+No computer networks topic is a test only topic.
+No computer networks topic is a wireless communications topic.
+No conference is a topic.
+No conference event is a topic.
+No conference session is a topic.
+No contact information is a topic.
+No country is a topic.
+No cryptography topic is a medicine topic.
+No cryptography topic is a microelectronics topic.
+No cryptography topic is a mobile computing topic.
+No cryptography topic is a multimedia topic.
+No cryptography topic is an operating topicsystems.
+No cryptography topic is a parallel and distributed computing topic.
+No cryptography topic is a performance topic.
+No cryptography topic is a powerline transmission topic.
+No cryptography topic is a radio communications topic.
+No cryptography topic is a satellite and space communications topic.
+No cryptography topic is a security topic.
+No cryptography topic is a signal processing topic.
+No cryptography topic is a test only topic.
+No cryptography topic is a wireless communications topic.
+No document is a topic.
+No medicine topic is a microelectronics topic.
+No medicine topic is a mobile computing topic.
+No medicine topic is a multimedia topic.
+No medicine topic is an operating topicsystems.
+No medicine topic is a parallel and distributed computing topic.
+No medicine topic is a performance topic.
+No medicine topic is a powerline transmission topic.
+No medicine topic is a radio communications topic.
+No medicine topic is a satellite and space communications topic.
+No medicine topic is a security topic.
+No medicine topic is a signal processing topic.
+No medicine topic is a test only topic.
+No medicine topic is a wireless communications topic.
+No microelectronics topic is a mobile computing topic.
+No microelectronics topic is a multimedia topic.
+No microelectronics topic is an operating topicsystems.
+No microelectronics topic is a parallel and distributed computing topic.
+No microelectronics topic is a performance topic.
+No microelectronics topic is a powerline transmission topic.
+No microelectronics topic is a radio communications topic.
+No microelectronics topic is a satellite and space communications topic.
+No microelectronics topic is a security topic.
+No microelectronics topic is a signal processing topic.
+No microelectronics topic is a test only topic.
+No microelectronics topic is a wireless communications topic.
+No mobile computing topic is a multimedia topic.
+No mobile computing topic is an operating topicsystems.
+No mobile computing topic is a parallel and distributed computing topic.
+No mobile computing topic is a performance topic.
+No mobile computing topic is a powerline transmission topic.
+No mobile computing topic is a radio communications topic.
+No mobile computing topic is a satellite and space communications topic.
+No mobile computing topic is a security topic.
+No mobile computing topic is a signal processing topic.
+No mobile computing topic is a test only topic.
+No mobile computing topic is a wireless communications topic.
+No multimedia topic is an operating topicsystems.
+No multimedia topic is a parallel and distributed computing topic.
+No multimedia topic is a performance topic.
+No multimedia topic is a powerline transmission topic.
+No multimedia topic is a radio communications topic.
+No multimedia topic is a satellite and space communications topic.
+No multimedia topic is a security topic.
+No multimedia topic is a signal processing topic.
+No multimedia topic is a test only topic.
+No multimedia topic is a wireless communications topic.
+No operating topicsystems is a parallel and distributed computing topic.
+No operating topicsystems is a performance topic.
+No operating topicsystems is a powerline transmission topic.
+No operating topicsystems is a radio communications topic.
+No operating topicsystems is a satellite and space communications topic.
+No operating topicsystems is a security topic.
+No operating topicsystems is a signal processing topic.
+No operating topicsystems is a test only topic.
+No operating topicsystems is a wireless communications topic.
+No organization is a topic.
+No parallel and distributed computing topic is a performance topic.
+No parallel and distributed computing topic is a powerline transmission topic.
+No parallel and distributed computing topic is a radio communications topic.
+No parallel and distributed computing topic is a satellite and space communications topic.
+No parallel and distributed computing topic is a security topic.
+No parallel and distributed computing topic is a signal processing topic.
+No parallel and distributed computing topic is a test only topic.
+No parallel and distributed computing topic is a wireless communications topic.
+No performance topic is a powerline transmission topic.
+No performance topic is a radio communications topic.
+No performance topic is a satellite and space communications topic.
+No performance topic is a security topic.
+No performance topic is a signal processing topic.
+No performance topic is a test only topic.
+No performance topic is a wireless communications topic.
+No person is a topic.
+No personal history is a topic.
+No place is a topic.
+No powerline transmission topic is a radio communications topic.
+No powerline transmission topic is a satellite and space communications topic.
+No powerline transmission topic is a security topic.
+No powerline transmission topic is a signal processing topic.
+No powerline transmission topic is a test only topic.
+No powerline transmission topic is a wireless communications topic.
+No radio communications topic is a satellite and space communications topic.
+No radio communications topic is a security topic.
+No radio communications topic is a signal processing topic.
+No radio communications topic is a test only topic.
+No radio communications topic is a wireless communications topic.
+No review form is a topic.
+No review question is a topic.
+No review rating is a topic.
+No satellite and space communications topic is a security topic.
+No satellite and space communications topic is a signal processing topic.
+No satellite and space communications topic is a test only topic.
+No satellite and space communications topic is a wireless communications topic.
+No security topic is a signal processing topic.
+No security topic is a test only topic.
+No security topic is a wireless communications topic.
+No signal processing topic is a test only topic.
+No signal processing topic is a wireless communications topic.
+No sponsorship is a topic.
+No test only topic is a wireless communications topic.
+X has as topic Y if and only if Y is topic of X.
+If X has as topic Y then X is a conference, or is a paper.
+If X is topic of Y then X is a topic.
+If X has as topic Y then Y is a topic.
+If X is topic of Y then Y is a conference, or is a paper.
+An antennas topic is a topic.
+A cadtopic is a topic.
+A communication theory topic is a topic.
+A communications topic is a topic.
+A computer architecture topic is a topic.
+A computer networks aapplications topic is a computer networks topic.
+A computer networks enterprise topic is a computer networks topic.
+A computer networks management topic is a computer networks topic.
+A computer networks measurements topic is a computer networks topic.
+A computer networks optical topic is a computer networks topic.
+A computer networks security topic is a computer networks topic.
+A computer networks sensor topic is a computer networks topic.
+A computer networks switching topic is a computer networks topic.
+A computer networks topic is a topic.
+A conference has as topic exactly one thing.
+A cryptography topic is a topic.
+A medicine topic is a topic.
+A microelectronics topic is a topic.
+A mobile computing topic is a topic.
+A multimedia topic is a topic.
+An operating topicsystems is a topic.
+A parallel and distributed computing topic is a topic.
+A performance topic is a topic.
+A powerline transmission topic is a topic.
+A radio communications topic is a topic.
+A satellite and space communications topic is a topic.
+A security topic is a topic.
+A signal processing topic is a topic.
+A test only topic is a topic.
+A wireless communications topic is a topic.
+<http://edas#Review>
+No call is a review form.
+No call is a review question.
+No call is a review rating.
+No conference is a review form.
+No conference is a review question.
+No conference is a review rating.
+No conference event is a review form.
+No conference event is a review question.
+No conference event is a review rating.
+No conference session is a review form.
+No conference session is a review question.
+No conference session is a review rating.
+No contact information is a review form.
+No contact information is a review question.
+No contact information is a review rating.
+No country is a review form.
+No country is a review question.
+No country is a review rating.
+No document is a review form.
+No document is a review question.
+No document is a review rating.
+No meal menu is a review.
+No organization is a review form.
+No organization is a review question.
+No organization is a review rating.
+No paper is a review.
+No person is a review form.
+No person is a review question.
+No person is a review rating.
+No personal history is a review form.
+No personal history is a review question.
+No personal history is a review rating.
+No place is a review form.
+No place is a review question.
+No place is a review rating.
+No programme is a review.
+No review is a slide set.
+No review form is a review question.
+No review form is a review rating.
+No review form is a sponsorship.
+No review form is a topic.
+No review question is a review rating.
+No review question is a sponsorship.
+No review question is a topic.
+No review rating is a sponsorship.
+No review rating is a topic.
+A rated papers is defined as something that has as rating a review rating.
+A review rating is defined as something that is an accept rating, is an accpet if room rating, is a reject rating, or is a week reject rating.
+A reviewer is defined as a person that is reviewing a paper.
+X is review history of Y if and only if Y has as review history X.
+X is reviewing Y if and only if Y is reviewed by X.
+If X has as review history Y then X is a reviewer.
+If X is review history of Y then X is a personal review history.
+If X is reviewed by Y then X is a paper.
+If X is reviewing Y then X is a conference chair, is a reviewer, is a session chair, or is a tpcmember.
+If X has as rating Y then Y is a review rating.
+If X has as review history Y then Y is a personal review history.
+If X is review history of Y then Y is a reviewer.
+If X is reviewed by Y then Y is a conference chair, is a reviewer, is a session chair, or is a tpcmember.
+If X is reviewing Y then Y is a paper.
+An accept rating is a review rating.
+An accpet if room rating is a review rating.
+A call for reviews is a call.
+A numerical review question is a review question.
+A personal review history is a personal history.
+A reject rating is a review rating.
+A review is a document.
+A textual review question is a review question.
+A week reject rating is a review rating.
+<http://sigkdd#Review>
+A review is a document.
+<http://conference#Paper>
+The data property "is a date of camera ready paper submission" is functional.
+The data property "is a full paper submission date" is functional.
+If X is a date of camera ready paper submission Y then X is an important dates.
+If X is a full paper submission date Y then X is an important dates.
+If X is a date of camera ready paper submission Y then Y is a date.
+If X is a full paper submission date Y then Y is a date.
+No extended abstract is a paper.
+A regular contribution is defined as something that is an extended abstract, or is a paper.
+If X has as an abstract Y then X is a paper, is a poster, or is a presentation.
+If X is the 1th part of Y then Y is a paper, is a poster, or is a presentation.
+A call for paper is a conference document.
+A paper is a regular contribution.
+<http://sigkdd#Paper>
+An author is defined as something that is submit a paper.
+A paper is defined as something that is submit until a deadline paper submission.
+If X is submit Y then Y is a paper.
+An author of paper is an author.
+An author of paper is award a best applications paper award.
+An author of paper is award a best research paper award.
+An author of paper student is an author.
+An author of paper student is award a best student paper award.
+A best applications paper award is an award.
+A best paper awards committee is a committee.
+A best research paper award is an award.
+A best student paper award is an award.
+A best student paper supporter is a sponzor.
+A deadline paper submission is a deadline.
+A paper is a document.
+<http://edas#Author>
+No author is a conference chair.
+No author is a session chair.
+No author is a tpcmember.
+An author is defined as a person that has as related document a paper.
+If X has as related paper Y then X is an author.
+If X is written by Y then Y is an author.
+A presenter is an author.
+<http://iasted#Author>
+A worker non speaker is defined as something that is pay a nonauthor registration fee.
+An author is a speaker.
+An author is give a brief introduction for session chair.
+An author is prepare a transparency.
+An author attendee book registration fee is a registration fee.
+An author attendee book registration fee is paid for a book proceeding.
+An author attendee cd registration fee is a registration fee.
+An author attendee cd registration fee is paid for a cd proceening.
+An author book proceedings included is an author.
+An author book proceedings included is obtain a book proceeding.
+An author cd proceedings included is an author.
+An author cd proceedings included is obtain a cd proceening.
+An author information form is a form.
+An author information form is sent after a deadline for notification of acceptance.
+A brief introduction for session chair is given by an author.
+A lecturer is an author.
+A nonauthor registration fee is a registration fee.
+A nonauthor registration fee is designed for a non speaker.
+A plenary lecture speaker is an author.
+A session is given by something that is an author, or is a session chair.
+A tutorial speaker is an author.
+<http://conference#Topic>
+The object property "has as a topic or a submission contribution" is functional.
+If X has as a name Y then X is a conference, is a conference part, is a conference proceedings, is a publisher, or is a topic.
+X has as a topic or a submission contribution Y if and only if Y has as been assigned a review reference X.
+X has as a track workshop tutorial topic Y if and only if Y is a topis of conference parts X.
+If X belongs to a review reference Y then X is a topic.
+If X has as a topic or a submission contribution Y then X is a review preference.
+If X has as a track workshop tutorial topic Y then X is a conference part.
+If X has as been assigned a review reference Y then X is a submitted contribution, or is a topic.
+If X is a topis of conference parts Y then X is a topic.
+If X has as a topic or a submission contribution Y then Y is a submitted contribution, or is a topic.
+If X has as a track workshop tutorial topic Y then Y is a topic.
+A review preference has as a topic or a submission contribution something that is a submitted contribution, or is a topic.
+<http://ekaw#Research_Topic>
+If X is topic covered by Y then X is a research topic.
+If X covers topic Y then Y is a research topic.
+<http://edas#hasCostAmount>
+<http://sigkdd#Price>
+If X is price Y then X is a registration fee.
+If X is price Y then Y is an int.
+<http://cmt#assignedTo>
+X has as been assigned Y if and only if Y is assigned to X.
+If X is assigned to Y then X is a paper.
+If X is assigned to Y then Y is a reviewer.
+<http://edas#isReviewedBy>
+X is reviewing Y if and only if Y is reviewed by X.
+If X is reviewed by Y then X is a paper.
+If X is reviewed by Y then Y is a conference chair, is a reviewer, is a session chair, or is a tpcmember.
+<http://edas#ConferenceVenuePlace>
+A conference venue place is a place.
+<http://sigkdd#Conference_hall>
+A conference hall is a place.
+<http://iasted#Sponsor>
+A sponsor is defined as something that is give a sponzorship.
+A sponzorship is defined as something that is paid by a sponsor.
+A sponsor is a person.
+A sponsor is occupy a sponsor city.
+A sponsor is occupy a sponsor company house.
+A sponsor is occupy a sponsor state.
+A sponsor city is a city.
+A sponsor city is occupied by a sponsor.
+A sponsor company house is a building.
+A sponsor company house is occupied by a sponsor.
+A sponsor company house is situated in a sponsor city.
+A sponsor company house is situated in a sponsor state.
+A sponsor state is a state.
+<http://sigkdd#Sponzor>
+If X is name of sponsor Y then X is a sponzor.
+A sponzor is defined as something that is pay a sponzor fee.
+If X is searched by Y then X is a sponzor.
+If X is search Y then Y is a sponzor.
+An acm sigkdd is search a sponzor.
+A best student paper supporter is a sponzor.
+A bronze supporter is a sponzor.
+An exhibitor is a sponzor.
+A gold supporter is a sponzor.
+A platinum supporter is a sponzor.
+A silver supporter is a sponzor.
+A sponzor fee is a fee.
+<http://confOf#Country>
+The object property "has as country" is functional.
+No contribution is a country.
+No country is an event.
+No country is an organization.
+No country is a person.
+No country is a topic.
+If X has as country Y then X is an organization, or is a person.
+If X has as country Y then Y is a country.
+A person has as country a country.
+<http://iasted#State>
+Mexico is a conference state.
+If X is occupied by Y then X is a building, is a city, or is a state.
+If X is visited by Y then X is a building, is a city, or is a state.
+If X is situated in Y then Y is a building, is a city, is a place, or is a state.
+If X is occupy Y then Y is a building, is a city, or is a state.
+A city is situated in a state.
+A conference activity is held in a conference state.
+A conference airport is situated in a conference state.
+A conference building is situated in a conference state.
+A conference hotel is situated in a conference state.
+A conference restaurant is situated in a conference state.
+A conference state is a state.
+A conference state is visited by a delegate.
+A delegate is occupy a presenter state.
+A place is situated in a conference state.
+A presenter house is situated in a presenter state.
+A presenter state is a state.
+A presenter state is occupied by a delegate.
+A presenter university is situated in a presenter state.
+A sponsor is occupy a sponsor state.
+A sponsor company house is situated in a sponsor state.
+A sponsor state is a state.
+<http://confOf#Paper>
+No paper is a poster.
+No paper is a short paper.
+No poster is a short paper.
+A paper is a contribution.
+A short paper is a contribution.
+<http://edas#Paper>
+If X is paper due on Y then X is a conference.
+If X is paper due on Y then Y is a date time.
+No accepted paper is an active paper.
+No accepted paper is a pending paper.
+No accepted paper is a published paper.
+No accepted paper is a rejected paper.
+No accepted paper is a withdrawn paper.
+No active paper is a pending paper.
+No active paper is a published paper.
+No active paper is a rejected paper.
+No active paper is a withdrawn paper.
+No conference is a paper.
+No meal menu is a paper.
+No organizational meeting is a paper presentation.
+No paper is a programme.
+No paper is a review.
+No paper is a slide set.
+No paper presentation is a talk event.
+No paper presentation is a workshop.
+No pending paper is a published paper.
+No pending paper is a rejected paper.
+No pending paper is a withdrawn paper.
+No published paper is a rejected paper.
+No published paper is a withdrawn paper.
+No rejected paper is a withdrawn paper.
+An author is defined as a person that has as related document a paper.
+A rated papers is defined as something that has as rating a review rating.
+A reviewer is defined as a person that is reviewing a paper.
+X has as related paper Y if and only if Y is written by X.
+X is related to event Y if and only if Y is related to paper X.
+If X has as rating Y then X is an active paper.
+If X has as related paper Y then X is an author.
+If X has as topic Y then X is a conference, or is a paper.
+If X is reviewed by Y then X is a paper.
+If X is written by Y then X is a paper.
+If X is related to event Y then X is an accepted paper.
+If X is related to paper Y then X is a paper presentation.
+If X has as related paper Y then Y is a paper.
+If X is reviewing Y then Y is a paper.
+If X is topic of Y then Y is a conference, or is a paper.
+If X is related to event Y then Y is a paper presentation.
+If X is related to paper Y then Y is an accepted paper.
+An accepted paper is a paper.
+An active paper is a paper.
+A call for papers is a call.
+A conference is paper due on at most one thing.
+A paper is a document.
+A paper presentation is an academic event.
+A pending paper is a paper.
+A published paper is a paper.
+A rated papers is an active paper.
+A rejected paper is a paper.
+A withdrawn paper is a paper.
+<http://ekaw#Session_Chair>
+A session chair is a conference participant.
+A session chair is a pc member.
+<http://iasted#Session_chair>
+A session chair is defined as something that is go through an introduction of speaker.
+An author is give a brief introduction for session chair.
+A brief introduction for session chair is a document.
+A brief introduction for session chair is given by an author.
+A brief introduction for session chair is given to a session chair.
+A session is given by something that is an author, or is a session chair.
+A session chair is a delegate.
+A session chair is obtain a brief introduction for session chair.
+<http://cmt#Author>
+The object property "has as author" is functional.
+No author not reviewer is a program committee member.
+No author not reviewer is a reviewer.
+X has as author Y if and only if Y is write paper X.
+X has as co author Y if and only if Y is co write paper X.
+If X is co write paper Y then X is a co author.
+If X has as author Y then X is a paper.
+If X has as co author Y then X is a paper.
+If X is mark conflict of interest Y then X is an author, is a chairman, or is a reviewer.
+If X is submit paper Y then X is an author.
+If X is write paper Y then X is an author.
+If X has as author Y then Y is an author.
+If X has as co author Y then Y is a co author.
+An author is a conference member.
+An author is an user.
+An author not reviewer is an author.
+A co author is an author.
+<http://conference#Regular_author>
+A regular author is defined as something that is a contribution 1th author, or is a contribution co author, and contributes a conference contribution.
+An active conference participant is an invited speaker, or is a regular author.
+A contribution 1th author is a regular author.
+A contribution co author is a regular author.
+A regular author is a conference contributor.
+<http://conference#Accepted_contribution>
+No accepted contribution is a rejected contribution.
+A reviewed contribution is defined as something that is an accepted contribution, or is a rejected contribution.
+An accepted contribution is a reviewed contribution.
+A camera ready contribution is an accepted contribution.
+<http://edas#AcceptedPaper>
+No accepted paper is an active paper.
+No accepted paper is a pending paper.
+No accepted paper is a published paper.
+No accepted paper is a rejected paper.
+No accepted paper is a withdrawn paper.
+If X is related to event Y then X is an accepted paper.
+If X is related to paper Y then Y is an accepted paper.
+An accepted paper is a paper.
+<http://ekaw#Document>
+No document is a person.
+If X has as updated version Y then X is a document.
+If X is updated version of Y then X is a document.
+If X is written by Y then X is a document.
+If X is author of Y then Y is a document.
+If X has as updated version Y then Y is a document.
+If X is updated version of Y then Y is a document.
+An abstract is a document.
+A flyer is a document.
+A multi author volume is a document.
+A paper is a document.
+A programme brochure is a document.
+A review is a document.
+A web site is a document.
+<http://sigkdd#Document>
+A speaker is defined as something that is presentation a document.
+If X is presentationed by Y then X is a document.
+If X is submit until Y then X is a document.
+If X is presentation Y then Y is a document.
+An abstract is a document.
+A paper is a document.
+A review is a document.
+<http://ekaw#Location>
+No location is a person.
+X is location of Y if and only if Y is held in X.
+If X is location of Y then X is a location.
+If X is held in Y then Y is a location.
+If X is location of Y then Y is an event.
+<http://sigkdd#Place>
+If X is can stay in Y then Y is a place.
+A conference hall is a place.
+A hotel is a place.
+A main office is a place.
+<http://confOf#Workshop>
+No conference is a workshop.
+No tutorial is a workshop.
+A workshop is a working event.
+<http://ekaw#Workshop>
+No conference is a workshop.
+No conference paper is a workshop paper.
+No conference session is a workshop session.
+No individual presentation is a workshop.
+No industrial paper is a workshop paper.
+No invited talk is a workshop.
+No pc chair is a workshop chair.
+No session is a workshop.
+No social event is a workshop.
+No track is a workshop.
+No tutorial is a workshop.
+A session is part of event only something that is a conference, is a track, or is a workshop.
+A session is part of event something that is a conference, or is a workshop.
+A workshop is a scientific event.
+A workshop chair is a conference participant.
+A workshop chair is a pc member.
+A workshop paper is a paper.
+A workshop session is a session.
+<http://confOf#hasEmail>
+<http://sigkdd#Email>
+If X is e mail Y then X is a person.
+If X is e mail Y then Y is a string.
+<http://cmt#Conference>
+If X accepts hardcopy submissions Y then X is a conference.
+If X is date Y then X is a conference.
+If X is logo u r l Y then X is a conference.
+If X is name Y then X is a conference, or is a person.
+If X reviews per paper Y then X is a conference.
+If X is site u r l Y then X is a conference.
+No associated chair is a conference chair.
+No bid is a conference.
+No conference is a decision.
+No conference is a document.
+No conference is a person.
+No conference is a preference.
+No conference is a program committee.
+X is enter conference details Y if and only if Y details entered by X.
+X has as conference member Y if and only if Y is member of conference X.
+If X details entered by Y then X is a conference.
+If X is enter conference details Y then X is an administrator.
+If X is hardcopy mailing manifests printed by Y then X is a conference.
+If X has as conference member Y then X is a conference.
+If X is member of conference Y then X is a conference member.
+If X is paper assignment finalized by Y then X is a conference.
+If X is paper assignment tools run by Y then X is a conference.
+If X is review criteria entered by Y then X is a conference.
+If X is reviewer bidding started by Y then X is a conference.
+If X is virtual meeting enabled by Y then X is a conference.
+If X is enable virtual meeting Y then Y is a conference.
+If X is enter conference details Y then Y is a conference.
+If X is enter review criteria Y then Y is a conference.
+If X is finalize paper assignment Y then Y is a conference.
+If X has as conference member Y then Y is a conference member.
+If X is member of conference Y then Y is a conference.
+If X is print hardcopy mailing manifests Y then Y is a conference.
+If X is run paper assignment tools Y then Y is a conference.
+If X is start reviewer bidding Y then Y is a conference.
+An associated chair is a conference member.
+An author is a conference member.
+A conference is a thing.
+A conference is name exactly one thing.
+A conference reviews per paper exactly one thing.
+A conference is date at least one thing.
+A conference chair is a conference member.
+A conference member is a person.
+A program committee member is a conference member.
+A reviewer is a conference member.
+<http://sigkdd#Conference>
+If X is city of conference Y then X is a conference.
+If X is end of conference Y then X is a conference.
+If X is name of conference Y then X is a conference.
+If X is start of conference Y then X is a conference.
+If X is city of conference Y then Y is a string.
+If X is end of conference Y then Y is a date time.
+If X is name of conference Y then Y is a string.
+If X is start of conference Y then Y is a date time.
+If X is holded by Y then X is a conference.
+If X is hold Y then Y is a conference.
+An acm sigkdd is hold a conference.
+A conference hall is a place.
+<http://conference#Person>
+If X has as an email Y then X is a person.
+If X has as gender Y then X is a person.
+If X has as the first name Y then X is a person.
+If X has as the last name Y then X is a person.
+If X contributes Y then X is a person.
+If X has as authors Y then Y is a person.
+A committee member is a person.
+A conference applicant is a person.
+A conference contributor is a person.
+A conference participant is a person.
+A reviewer is a person.
+A track workshop chair is a person.
+<http://sigkdd#Person>
+If X is e mail Y then X is a person.
+If X is name Y then X is a person.
+If X is nation Y then X is a person.
+A person is defined as something that is pay a registration fee.
+If X is can stay in Y then X is a person.
+If X is pay Y then X is a person.
+If X is payed by Y then Y is a person.
+A listener is a person.
+An organizator is a person.
+A person is a thing.
+A person is can stay in a hotel.
+A speaker is a person.
+<http://confOf#hasFirstName>
+<http://edas#hasFirstName>
+<http://confOf#Conference>
+No conference is a tutorial.
+No conference is a workshop.
+A conference is a working event.
+<http://ekaw#Conference>
+No conference is a contributed talk.
+No conference is an invited talk.
+No conference is a session.
+No conference is a social event.
+No conference is a track.
+No conference is a tutorial.
+No conference is a workshop.
+No conference paper is a workshop paper.
+No conference session is a workshop session.
+A camera ready paper is written by a conference participant.
+A conference is a scientific event.
+A conference banquet is a social event.
+A conference paper is a paper.
+A conference participant is a person.
+A conference proceedings is a proceedings.
+A conference proceedings is volume contains paper only something that is a conference paper, or is an invited talk abstract.
+A conference session is a session.
+A conference session is part of event a conference.
+A conference trip is a social event.
+A demo chair is a conference participant.
+An early registered participant is a conference participant.
+An industrial session is a conference session.
+A late registered participant is a conference participant.
+An oc member is a conference participant.
+A pc chair is a conference participant.
+A presenter is a conference participant.
+A session is part of event only something that is a conference, is a track, or is a workshop.
+A session is part of event something that is a conference, or is a workshop.
+A session chair is a conference participant.
+A tutorial chair is a conference participant.
+A workshop chair is a conference participant.
+<http://edas#Document>
+No call is a document.
+No conference is a document.
+No conference event is a document.
+No conference session is a document.
+No contact information is a document.
+No country is a document.
+No document is an organization.
+No document is a person.
+No document is a personal history.
+No document is a place.
+No document is a review form.
+No document is a review question.
+No document is a review rating.
+No document is a sponsorship.
+No document is a topic.
+An author is defined as a person that has as related document a paper.
+X has as related document Y if and only if Y relates to X.
+If X has as related document Y then X is an academic event, is a conference, is a conference session, or is a person.
+If X relates to Y then X is a document.
+If X has as related document Y then Y is a document.
+A meal menu is a document.
+A paper is a document.
+A programme is a document.
+A review is a document.
+A slide set is a document.
+<http://iasted#Document>
+A bank transfer is a payment document.
+A brief introduction for session chair is a document.
+A cheque is a payment document.
+A document is an item.
+A fee is paid with something that is a credit card, or is a payment document.
+A form is a document.
+An invitation letter is a document.
+A mailing list is a document.
+A payment document is a document.
+A payment document is designed for something that is a fee, or is a tax.
+A record of attendance is a document.
+A review is a document.
+A submission is a document.
+A transparency is a document.
+A viza is a document.
+<http://confOf#Paper>
+No paper is a poster.
+No paper is a short paper.
+No poster is a short paper.
+A paper is a contribution.
+A short paper is a contribution.
+<http://sigkdd#Paper>
+An author is defined as something that is submit a paper.
+A paper is defined as something that is submit until a deadline paper submission.
+If X is submit Y then Y is a paper.
+An author of paper is an author.
+An author of paper is award a best applications paper award.
+An author of paper is award a best research paper award.
+An author of paper student is an author.
+An author of paper student is award a best student paper award.
+A best applications paper award is an award.
+A best paper awards committee is a committee.
+A best research paper award is an award.
+A best student paper award is an award.
+A best student paper supporter is a sponzor.
+A deadline paper submission is a deadline.
+A paper is a document.
+<http://ekaw#Abstract>
+If X is paper presented as Y then X is an abstract, or is a paper.
+If X is presentation of paper Y then Y is an abstract, or is a paper.
+An abstract is a document.
+A conference proceedings is volume contains paper only something that is a conference paper, or is an invited talk abstract.
+An invited talk abstract is an abstract.
+A proceedings is volume contains paper only something that is an accepted paper, or is an invited talk abstract.
+A tutorial abstract is an abstract.
+<http://sigkdd#Abstract>
+An abstract is defined as something that is submit until a deadline abstract submission.
+An abstract is a document.
+A deadline abstract submission is a deadline.
+<http://cmt#Paper>
+The data property "is max papers" is functional.
+The data property "is paper i d" is functional.
+The data property "reviews per paper" is functional.
+The object property "is accept paper" is functional.
+The object property "is accept paper" is inverse-functional.
+The object property "is reject paper" is inverse-functional.
+The object property "is write paper" is inverse-functional.
+If X is max papers Y then X is a program committee member.
+If X is paper i d Y then X is a paper.
+If X reviews per paper Y then X is a conference.
+If X is title Y then X is a paper.
+If X is max papers Y then Y is an int.
+If X is paper i d Y then Y is an unsigned long.
+If X reviews per paper Y then Y is an int.
+No paper is a review.
+X is accept paper Y if and only if Y is accepted by X.
+X is finalize paper assignment Y if and only if Y is paper assignment finalized by X.
+X has as author Y if and only if Y is write paper X.
+X has as co author Y if and only if Y is co write paper X.
+X is read paper Y if and only if Y is read by reviewer X.
+X is reject paper Y if and only if Y is rejected by X.
+X is run paper assignment tools Y if and only if Y is paper assignment tools run by X.
+If X is accept paper Y then X is an administrator.
+If X is accepted by Y then X is a paper.
+If X is assigned to Y then X is a paper.
+If X is co write paper Y then X is a co author.
+If X is finalize paper assignment Y then X is an administrator.
+If X has as author Y then X is a paper.
+If X has as bid Y then X is a paper.
+If X has as co author Y then X is a paper.
+If X has as decision Y then X is a paper.
+If X has as subject area Y then X is a paper.
+If X is paper assignment finalized by Y then X is a conference.
+If X is paper assignment tools run by Y then X is a conference.
+If X is read by meta reviewer Y then X is a paper.
+If X is read by reviewer Y then X is a paper.
+If X is read paper Y then X is a reviewer.
+If X is reject paper Y then X is an administrator.
+If X is rejected by Y then X is a paper.
+If X is run paper assignment tools Y then X is an administrator.
+If X is set max papers Y then X is an administrator.
+If X is submit paper Y then X is an author.
+If X is write paper Y then X is an author.
+If X is accept paper Y then Y is a paper.
+If X is co write paper Y then Y is a paper.
+If X is finalize paper assignment Y then Y is a conference.
+If X has as been assigned Y then Y is a paper.
+If X is mark conflict of interest Y then Y is a paper.
+If X is paper assignment finalized by Y then Y is an administrator.
+If X is paper assignment tools run by Y then Y is an administrator.
+If X is read paper Y then Y is a paper.
+If X is reject paper Y then Y is a paper.
+If X is run paper assignment tools Y then Y is a conference.
+If X is set max papers Y then Y is a program committee member.
+If X is submit paper Y then Y is a paper.
+If X is write paper Y then Y is a paper.
+A conference reviews per paper exactly one thing.
+A paper is a document.
+A paper has as decision at most one thing.
+A paper is read by meta reviewer at most one thing.
+A paper has as decision at least zero things.
+A paper is read by reviewer at least one thing.
+A paper abstract is a paper.
+A paper full version is a paper.
+<http://confOf#Contribution>
+If X is abstract Y then X is a contribution.
+If X is contact email Y then X is a contribution.
+If X has as keyword Y then X is a contribution.
+If X has as title Y then X is a contribution.
+If X is remark Y then X is a contribution.
+No city is a contribution.
+No contribution is a country.
+No contribution is an event.
+No contribution is an organization.
+No contribution is a person.
+No contribution is a topic.
+If X deals with Y then X is a contribution.
+If X is written by Y then X is a contribution.
+If X reviewes Y then Y is a contribution.
+If X writes Y then Y is a contribution.
+An author writes only a contribution.
+An author writes a contribution.
+A contribution is a thing.
+A contribution is abstract exactly one thing.
+A contribution has as title exactly one thing.
+A contribution is contact email at least one thing.
+A contribution has as keyword at least one thing.
+A contribution deals with only a topic.
+A contribution deals with a topic.
+A member pc reviewes only a contribution.
+A member pc reviewes a contribution.
+A paper is a contribution.
+A poster is a contribution.
+A short paper is a contribution.
+<http://iasted#Deadline>
+If X is done till Y then X is a deadline.
+An author information form is sent after a deadline for notification of acceptance.
+A camera ready manuscript deadline is a deadline.
+A deadline is a time.
+A deadline is designed for a delegate.
+A deadline for notification of acceptance is a deadline.
+A deadline hotel reservation is a deadline.
+A hotel registration form is sent before a deadline hotel reservation.
+A registation deadline is a deadline.
+A registration form is sent before a registation deadline.
+A submissions deadline is a deadline.
+<http://sigkdd#Deadline>
+If X is date Y then X is a deadline.
+An abstract is defined as something that is submit until a deadline abstract submission.
+A paper is defined as something that is submit until a deadline paper submission.
+If X is designed by Y then X is a deadline.
+If X is design Y then Y is a deadline.
+If X is notification until Y then Y is a deadline author notification.
+If X is submit until Y then Y is a deadline.
+An acm sigkdd is design a deadline.
+An author is notification until a deadline author notification.
+A deadline abstract submission is a deadline.
+A deadline author notification is a deadline.
+A deadline paper submission is a deadline.
+<http://cmt#hasAuthor>
+<http://edas#isWrittenBy>
+X has as related paper Y if and only if Y is written by X.
+If X is written by Y then X is a paper.
+If X is written by Y then Y is an author.
+<http://confOf#Banquet>
+No banquet is a reception.
+No banquet is a trip.
+A banquet is a social event.
+<http://iasted#Dinner_banquet>
+A dinner banquet is a social program.
+A dinner banquet is designed for something that is not an one day presenter.
+<http://conference#Conference_contribution>
+A conference contribution is defined as something that is a presentation, or is a written contribution.
+A conference contribution is defined as something that is an invited talk, is a poster, or is a regular contribution.
+A regular author is defined as something that is a contribution 1th author, or is a contribution co author, and contributes a conference contribution.
+If X is submitted at Y then X is a conference contribution.
+If X has as contributions Y then Y is a conference contribution.
+A conference contribution is a conference document.
+A poster is a conference contribution.
+A presentation is a conference contribution.
+A written contribution is a conference contribution.
+<http://confOf#Contribution>
+If X is abstract Y then X is a contribution.
+If X is contact email Y then X is a contribution.
+If X has as keyword Y then X is a contribution.
+If X has as title Y then X is a contribution.
+If X is remark Y then X is a contribution.
+No city is a contribution.
+No contribution is a country.
+No contribution is an event.
+No contribution is an organization.
+No contribution is a person.
+No contribution is a topic.
+If X deals with Y then X is a contribution.
+If X is written by Y then X is a contribution.
+If X reviewes Y then Y is a contribution.
+If X writes Y then Y is a contribution.
+An author writes only a contribution.
+An author writes a contribution.
+A contribution is a thing.
+A contribution is abstract exactly one thing.
+A contribution has as title exactly one thing.
+A contribution is contact email at least one thing.
+A contribution has as keyword at least one thing.
+A contribution deals with only a topic.
+A contribution deals with a topic.
+A member pc reviewes only a contribution.
+A member pc reviewes a contribution.
+A paper is a contribution.
+A poster is a contribution.
+A short paper is a contribution.
+<http://edas#Paper>
+If X is paper due on Y then X is a conference.
+If X is paper due on Y then Y is a date time.
+No accepted paper is an active paper.
+No accepted paper is a pending paper.
+No accepted paper is a published paper.
+No accepted paper is a rejected paper.
+No accepted paper is a withdrawn paper.
+No active paper is a pending paper.
+No active paper is a published paper.
+No active paper is a rejected paper.
+No active paper is a withdrawn paper.
+No conference is a paper.
+No meal menu is a paper.
+No organizational meeting is a paper presentation.
+No paper is a programme.
+No paper is a review.
+No paper is a slide set.
+No paper presentation is a talk event.
+No paper presentation is a workshop.
+No pending paper is a published paper.
+No pending paper is a rejected paper.
+No pending paper is a withdrawn paper.
+No published paper is a rejected paper.
+No published paper is a withdrawn paper.
+No rejected paper is a withdrawn paper.
+An author is defined as a person that has as related document a paper.
+A rated papers is defined as something that has as rating a review rating.
+A reviewer is defined as a person that is reviewing a paper.
+X has as related paper Y if and only if Y is written by X.
+X is related to event Y if and only if Y is related to paper X.
+If X has as rating Y then X is an active paper.
+If X has as related paper Y then X is an author.
+If X has as topic Y then X is a conference, or is a paper.
+If X is reviewed by Y then X is a paper.
+If X is written by Y then X is a paper.
+If X is related to event Y then X is an accepted paper.
+If X is related to paper Y then X is a paper presentation.
+If X has as related paper Y then Y is a paper.
+If X is reviewing Y then Y is a paper.
+If X is topic of Y then Y is a conference, or is a paper.
+If X is related to event Y then Y is a paper presentation.
+If X is related to paper Y then Y is an accepted paper.
+An accepted paper is a paper.
+An active paper is a paper.
+A call for papers is a call.
+A conference is paper due on at most one thing.
+A paper is a document.
+A paper presentation is an academic event.
+A pending paper is a paper.
+A published paper is a paper.
+A rated papers is an active paper.
+A rejected paper is a paper.
+A withdrawn paper is a paper.
+<http://sigkdd#Paper>
+An author is defined as something that is submit a paper.
+A paper is defined as something that is submit until a deadline paper submission.
+If X is submit Y then Y is a paper.
+An author of paper is an author.
+An author of paper is award a best applications paper award.
+An author of paper is award a best research paper award.
+An author of paper student is an author.
+An author of paper student is award a best student paper award.
+A best applications paper award is an award.
+A best paper awards committee is a committee.
+A best research paper award is an award.
+A best student paper award is an award.
+A best student paper supporter is a sponzor.
+A deadline paper submission is a deadline.
+A paper is a document.
+<http://edas#startDate>
+If X has as start date time Y then X is a conference event.
+If X is start date Y then X is a conference.
+If X has as start date time Y then Y is a date time.
+If X is start date Y then Y is a date time.
+A conference is start date at most one thing.
+<http://sigkdd#Start_of_conference>
+If X is start of conference Y then X is a conference.
+If X is start of conference Y then Y is a date time.
+<http://edas#ConferenceEvent>
+If X has as end date time Y then X is a conference event.
+If X has as start date time Y then X is a conference event.
+No call is a conference event.
+No conference is a conference event.
+No conference event is a conference session.
+No conference event is a contact information.
+No conference event is a country.
+No conference event is a document.
+No conference event is an organization.
+No conference event is a person.
+No conference event is a personal history.
+No conference event is a place.
+No conference event is a review form.
+No conference event is a review question.
+No conference event is a review rating.
+No conference event is a sponsorship.
+No conference event is a topic.
+If X has as attendee Y then X is a conference event.
+If X has as location Y then X is a conference event.
+If X has as programme Y then X is a conference event.
+If X is attendee at Y then Y is a conference event.
+If X belongs to event Y then Y is a conference event.
+If X is location of Y then Y is a conference event.
+An academic event is a conference event.
+A non academic event is a conference event.
+<http://ekaw#Event>
+The property "is part of event" is transitive.
+No conference is a social event.
+No contributed talk is a social event.
+No event is a person.
+No invited talk is a social event.
+No social event is a track.
+No social event is a tutorial.
+No social event is a workshop.
+X is event on list Y if and only if Y lists event X.
+X is part of event Y if and only if Y has as event X.
+If X covers topic Y then X is an event, or is a paper.
+If X is event on list Y then X is an event.
+If X has as event Y then X is an event.
+If X is held in Y then X is an event.
+If X lists event Y then X is a programme brochure, or is a web site.
+If X is organised by Y then X is an event.
+If X is part of event Y then X is an event.
+If X is event on list Y then Y is a programme brochure, or is a web site.
+If X has as event Y then Y is an event.
+If X is inverse of part of 7 Y then Y is an event.
+If X lists event Y then Y is an event.
+If X is location of Y then Y is an event.
+If X organises Y then Y is an event.
+If X is part of event Y then Y is an event.
+If X is topic covered by Y then Y is an event, or is a paper.
+A conference is a scientific event.
+A conference banquet is a social event.
+A conference session is part of event a conference.
+A conference trip is a social event.
+An individual presentation is a scientific event.
+A scientific event is an event.
+A session is a scientific event.
+A session is part of event only something that is a conference, is a track, or is a workshop.
+A session has as event an individual presentation.
+A session is part of event something that is a conference, or is a workshop.
+A social event is an event.
+A track is a scientific event.
+A workshop is a scientific event.
+The property "has as event" is a sub-property of "has as part".
+The property "is part of event" is a sub-property of "is part of".
+<http://cmt#Document>
+No bid is a document.
+No conference is a document.
+No decision is a document.
+No document is a person.
+No document is a preference.
+No document is a program committee.
+If X has as conflict of interest Y then Y is a document.
+A paper is a document.
+A review is a document.
+<http://sigkdd#Document>
+A speaker is defined as something that is presentation a document.
+If X is presentationed by Y then X is a document.
+If X is submit until Y then X is a document.
+If X is presentation Y then Y is a document.
+An abstract is a document.
+A paper is a document.
+A review is a document.
+<http://cmt#Author>
+The object property "has as author" is functional.
+No author not reviewer is a program committee member.
+No author not reviewer is a reviewer.
+X has as author Y if and only if Y is write paper X.
+X has as co author Y if and only if Y is co write paper X.
+If X is co write paper Y then X is a co author.
+If X has as author Y then X is a paper.
+If X has as co author Y then X is a paper.
+If X is mark conflict of interest Y then X is an author, is a chairman, or is a reviewer.
+If X is submit paper Y then X is an author.
+If X is write paper Y then X is an author.
+If X has as author Y then Y is an author.
+If X has as co author Y then Y is a co author.
+An author is a conference member.
+An author is an user.
+An author not reviewer is an author.
+A co author is an author.
+<http://ekaw#Paper_Author>
+A paper author is a person.
+<http://conference#Conference_fees>
+<http://sigkdd#Fee>
+If X is currency Y then X is a registration fee.
+If X is price Y then X is a registration fee.
+A person is defined as something that is pay a registration fee.
+A sponzor is defined as something that is pay a sponzor fee.
+If X is payed by Y then X is a registration fee.
+If X is pay Y then Y is a registration fee.
+A registration non member is a registration fee.
+A registration sigkdd member is a registration fee.
+A registration sigmod member is a registration fee.
+A registration student is a registration fee.
+A registration fee is a fee.
+A sponzor fee is a fee.
+<http://conference#Organizing_committee>
+The object property "has as an organizing committee" is functional.
+The object property "was an organizing committee of" is inverse-functional.
+No organizing committee is a program committee.
+No organizing committee is a steering committee.
+A committee is defined as something that is an organizing committee, is a program committee, or is a steering committee.
+X was an organizing committee of Y if and only if Y has as an organizing committee X.
+If X has as an organizing committee Y then X is a conference volume.
+If X was an organizing committee of Y then X is an organizing committee.
+If X has as an organizing committee Y then Y is an organizing committee.
+If X was an organizing committee of Y then Y is a conference volume.
+An organizing committee is a committee.
+The property "has as an organizing committee" is a sub-property of "has as a commtitee".
+The property "was an organizing committee of" is a sub-property of "was a committee of".
+<http://sigkdd#Organizing_Committee>
+An organizing committee is a committee.
+An organizing committee member is an organizator.
+<http://edas#Reviewer>
+A reviewer is defined as a person that is reviewing a paper.
+If X has as review history Y then X is a reviewer.
+If X is reviewing Y then X is a conference chair, is a reviewer, is a session chair, or is a tpcmember.
+If X is review history of Y then Y is a reviewer.
+If X is reviewed by Y then Y is a conference chair, is a reviewer, is a session chair, or is a tpcmember.
+<http://iasted#Reviewer>
+A reviewer is defined as something that is give a review.
+A review is writen by a reviewer.
+A reviewer is a speaker.
+<http://conference#Tutorial>
+The object property "has as a track workshop tutorial chair" is functional.
+No track is a tutorial.
+No tutorial is a workshop.
+X has as a track workshop tutorial topic Y if and only if Y is a topis of conference parts X.
+X was a track workshop chair of Y if and only if Y has as a track workshop tutorial chair X.
+If X has as a track workshop tutorial chair Y then X is a conference part.
+If X has as a track workshop tutorial topic Y then X is a conference part.
+If X has as tutorials Y then X is a conference volume.
+If X has as a track workshop tutorial chair Y then Y is a track workshop chair.
+If X has as a track workshop tutorial topic Y then Y is a topic.
+If X has as tutorials Y then Y is a tutorial.
+A tutorial is a conference part.
+The property "has as tutorials" is a sub-property of "has as parts".
+<http://confOf#Tutorial>
+No conference is a tutorial.
+No tutorial is a workshop.
+A tutorial is a working event.
+<http://confOf#Member_PC>
+If X is expert on Y then X is a member pc.
+If X reviewes Y then X is a member pc.
+A member pc is a person.
+A member pc is expert on only a topic.
+A member pc reviewes only a contribution.
+A member pc is expert on a topic.
+A member pc reviewes a contribution.
+<http://ekaw#PC_Member>
+A pc chair is a pc member.
+A pc member is a possible reviewer.
+A sc member is a pc member.
+A session chair is a pc member.
+A tutorial chair is a pc member.
+A workshop chair is a pc member.
+<http://iasted#Author_book_proceedings_included>
+An author book proceedings included is an author.
+An author book proceedings included is obtain a book proceeding.
+<http://sigkdd#Author_of_paper_student>
+An author of paper student is an author.
+An author of paper student is award a best student paper award.
+<http://conference#has_a_name>
+<http://sigkdd#Name>
+If X is name Y then X is a person.
+If X is name of conference Y then X is a conference.
+If X is name of sponsor Y then X is a sponzor.
+If X is name Y then Y is a string.
+If X is name of conference Y then Y is a string.
+If X is name of sponsor Y then Y is a string.
+<http://confOf#writes>
+X writes Y if and only if Y is written by X.
+If X writes Y then X is an author.
+If X writes Y then Y is a contribution.
+An author writes only a contribution.
+An author writes a contribution.
+<http://iasted#write>
+X is write Y if and only if Y is writen by X.
+If X is writen by Y then X is an item.
+If X is write Y then X is a person.
+If X is writen by Y then Y is a person.
+If X is write Y then Y is an item.
+A review is writen by a reviewer.
+A speaker is write a final manuscript.
+A submission is writen by a speaker.
+<http://confOf#Participant>
+If X is early registration Y then X is a participant.
+No camera ready event is a registration of participants event.
+No registration of participants event is a reviewing event.
+No registration of participants event is a reviewing results event.
+No registration of participants event is a submission event.
+A member is a participant.
+A participant is a person.
+A registration of participants event is an administrative event.
+A regular is a participant.
+A student is a participant.
+<http://ekaw#Session>
+No conference is a session.
+No conference session is a workshop session.
+No contributed talk is a session.
+No demo session is a poster session.
+No demo session is a regular session.
+No invited talk is a session.
+No poster session is a regular session.
+No session is a track.
+No session is a tutorial.
+No session is a workshop.
+A conference session is a session.
+A conference session is part of event a conference.
+A demo session is a session.
+An industrial session is a conference session.
+A poster session is a session.
+A regular session is a session.
+A session is a scientific event.
+A session is part of event only something that is a conference, is a track, or is a workshop.
+A session has as event an individual presentation.
+A session is part of event something that is a conference, or is a workshop.
+A session chair is a conference participant.
+A session chair is a pc member.
+A workshop session is a session.
+<http://edas#Reception>
+A reception is a social event.
+<http://iasted#Renting>
+A renting is an activity before conference.
+A renting is connected with a car.
+<http://conference#has_a_location>
+<http://edas#hasLocation>
+<http://edas#NonAcademicEvent>
+No academic event is a non academic event.
+A break event is a non academic event.
+A meal event is a non academic event.
+A non academic event is a conference event.
+A social event is a non academic event.
+<http://ekaw#Proceedings>
+No flyer is a proceedings.
+No paper is a proceedings.
+No proceedings is a programme brochure.
+No proceedings is a review.
+No proceedings is a web site.
+A conference proceedings is a proceedings.
+A conference proceedings is volume contains paper only something that is a conference paper, or is an invited talk abstract.
+A proceedings is a multi author volume.
+A proceedings is volume contains paper only something that is an accepted paper, or is an invited talk abstract.
+A proceedings is volume contains paper at least one thing.
+A proceedings publisher is an organisation.
+<http://edas#isWrittenBy>
+X has as related paper Y if and only if Y is written by X.
+If X is written by Y then X is a paper.
+If X is written by Y then Y is an author.
+<http://iasted#is_writen_by>
+X is write Y if and only if Y is writen by X.
+If X is writen by Y then X is an item.
+If X is writen by Y then Y is a person.
+A review is writen by a reviewer.
+A submission is writen by a speaker.
+<http://iasted#Student_registration_fee>
+A student non speaker is defined as something that is pay a student registration fee.
+A student registration fee is a registration fee.
+A student registration fee is designed for something that is a student lecturer, or is a student non speaker.
+<http://sigkdd#Registration_SIGKDD_Member>
+A registration sigkdd member is a registration fee.
+<http://cmt#date>
+If X is date Y then X is a conference.
+If X is date Y then Y is a date.
+A conference is date at least one thing.
+<http://conference#has_a_date_of_issue>
+<http://ekaw#Conference_Participant>
+A camera ready paper is written by a conference participant.
+A conference participant is a person.
+A demo chair is a conference participant.
+An early registered participant is a conference participant.
+A late registered participant is a conference participant.
+An oc member is a conference participant.
+A pc chair is a conference participant.
+A presenter is a conference participant.
+A session chair is a conference participant.
+A tutorial chair is a conference participant.
+A workshop chair is a conference participant.
+<http://iasted#Introduction>
+A session chair is defined as something that is go through an introduction of speaker.
+An author is give a brief introduction for session chair.
+A brief introduction for session chair is a document.
+A brief introduction for session chair is given by an author.
+A brief introduction for session chair is given to a session chair.
+An introduction is a conference activity.
+An introduction of speaker is an introduction.
+A session chair is obtain a brief introduction for session chair.
+<http://ekaw#Presenter>
+An invited speaker is a presenter.
+A presenter is a conference participant.
+<http://iasted#Sponsor>
+A sponsor is defined as something that is give a sponzorship.
+A sponzorship is defined as something that is paid by a sponsor.
+A sponsor is a person.
+A sponsor is occupy a sponsor city.
+A sponsor is occupy a sponsor company house.
+A sponsor is occupy a sponsor state.
+A sponsor city is a city.
+A sponsor city is occupied by a sponsor.
+A sponsor company house is a building.
+A sponsor company house is occupied by a sponsor.
+A sponsor company house is situated in a sponsor city.
+A sponsor company house is situated in a sponsor state.
+A sponsor state is a state.
+<http://cmt#Meta_Reviewer>
+The object property "is read by meta reviewer" is functional.
+If X is read by meta reviewer Y then X is a paper.
+If X is read by meta reviewer Y then Y is a meta reviewer.
+A meta reviewer is a reviewer.
+A paper is read by meta reviewer at most one thing.
+<http://conference#Accepted_contribution>
+No accepted contribution is a rejected contribution.
+A reviewed contribution is defined as something that is an accepted contribution, or is a rejected contribution.
+An accepted contribution is a reviewed contribution.
+A camera ready contribution is an accepted contribution.
+<http://conference#Conference_contributor>
+An active conference participant is a conference contributor.
+A conference contributor is a person.
+An invited speaker is a conference contributor.
+A regular author is a conference contributor.
+<http://ekaw#Presenter>
+An invited speaker is a presenter.
+A presenter is a conference participant.
+<http://conference#Topic>
+The object property "has as a topic or a submission contribution" is functional.
+If X has as a name Y then X is a conference, is a conference part, is a conference proceedings, is a publisher, or is a topic.
+X has as a topic or a submission contribution Y if and only if Y has as been assigned a review reference X.
+X has as a track workshop tutorial topic Y if and only if Y is a topis of conference parts X.
+If X belongs to a review reference Y then X is a topic.
+If X has as a topic or a submission contribution Y then X is a review preference.
+If X has as a track workshop tutorial topic Y then X is a conference part.
+If X has as been assigned a review reference Y then X is a submitted contribution, or is a topic.
+If X is a topis of conference parts Y then X is a topic.
+If X has as a topic or a submission contribution Y then Y is a submitted contribution, or is a topic.
+If X has as a track workshop tutorial topic Y then Y is a topic.
+A review preference has as a topic or a submission contribution something that is a submitted contribution, or is a topic.
+<http://ekaw#Paper>
+No accepted paper is a camera ready paper.
+No accepted paper is a rejected paper.
+No camera ready paper is an evaluated paper.
+No camera ready paper is a submitted paper.
+No conference paper is a workshop paper.
+No demo paper is an industrial paper.
+No demo paper is a poster paper.
+No demo paper is a regular paper.
+No flyer is a paper.
+No industrial paper is a poster paper.
+No industrial paper is a regular paper.
+No industrial paper is a workshop paper.
+No multi author volume is a paper.
+No paper is a proceedings.
+No paper is a programme brochure.
+No paper is a review.
+No paper is a web site.
+No poster paper is a regular paper.
+X has as review Y if and only if Y is review of paper X.
+X is presentation of paper Y if and only if Y is paper presented as X.
+X is reviewer of paper Y if and only if Y has as reviewer X.
+X is volume contains paper Y if and only if Y is paper in volume X.
+If X covers topic Y then X is an event, or is a paper.
+If X has as review Y then X is a paper.
+If X has as reviewer Y then X is a paper.
+If X is paper presented as Y then X is an abstract, or is a paper.
+If X is presentation of paper Y then X is an individual presentation.
+If X is review of paper Y then X is a review.
+If X is reviewer of paper Y then X is a possible reviewer.
+If X is paper presented as Y then Y is an individual presentation.
+If X is presentation of paper Y then Y is an abstract, or is a paper.
+If X is review of paper Y then Y is a paper.
+If X is reviewer of paper Y then Y is a paper.
+If X is topic covered by Y then Y is an event, or is a paper.
+An accepted paper is an evaluated paper.
+An accepted paper has as review a positive review.
+An assigned paper is a submitted paper.
+An assigned paper has as reviewer at least three things.
+A camera ready paper is a paper.
+A camera ready paper is updated version of an accepted paper.
+A camera ready paper is written by a conference participant.
+A conference paper is a paper.
+A conference proceedings is volume contains paper only something that is a conference paper, or is an invited talk abstract.
+A contributed talk is presentation of paper exactly one thing.
+A contributed talk is presentation of paper a camera ready paper.
+A demo paper is a paper.
+An evaluated paper is an assigned paper.
+An evaluated paper has as review at least three things.
+An industrial paper is a paper.
+A paper is a document.
+A paper author is a person.
+A poster paper is a paper.
+A proceedings is volume contains paper only something that is an accepted paper, or is an invited talk abstract.
+A proceedings is volume contains paper at least one thing.
+A regular paper is a paper.
+A rejected paper is an evaluated paper.
+A submitted paper is a paper.
+A workshop paper is a paper.
+<http://edas#hasRelatedPaper>
+<http://ekaw#reviewOfPaper>
+X has as review Y if and only if Y is review of paper X.
+If X is review of paper Y then X is a review.
+If X is review of paper Y then Y is a paper.
+<http://ekaw#Track>
+No conference is a track.
+No contributed talk is a track.
+No invited talk is a track.
+No session is a track.
+No social event is a track.
+No track is a tutorial.
+No track is a workshop.
+A session is part of event only something that is a conference, is a track, or is a workshop.
+A track is a scientific event.
+<http://iasted#Tip>
+A tip is a money.
+A tip is paid in a conference restaurant.
+<http://conference#Chair>
+The object property "has as a committee chair" is functional.
+The object property "has as a track workshop tutorial chair" is functional.
+The object property "was a committee chair of" is inverse-functional.
+The object property "was a track workshop chair of" is inverse-functional.
+A chair is defined as something that was a committee chair of a committee.
+A co chair is defined as something that was a committe co chair of a committee.
+A track workshop chair is defined as something that was a track workshop chair of something that is a track, or is a workshop.
+X has as a committee chair Y if and only if Y was a committee chair of X.
+X has as a committee co chair Y if and only if Y was a committe co chair of X.
+X was a track workshop chair of Y if and only if Y has as a track workshop tutorial chair X.
+If X has as a committee chair Y then X is a committee.
+If X has as a committee co chair Y then X is a committee.
+If X has as a track workshop tutorial chair Y then X is a conference part.
+If X was a committe co chair of Y then X is a co chair.
+If X was a committee chair of Y then X is a chair.
+If X was a track workshop chair of Y then X is a track workshop chair.
+If X has as a committee chair Y then Y is a chair.
+If X has as a committee co chair Y then Y is a co chair.
+If X has as a track workshop tutorial chair Y then Y is a track workshop chair.
+If X was a committe co chair of Y then Y is a committee.
+If X was a committee chair of Y then Y is a committee.
+If X was a track workshop chair of Y then Y is a conference part.
+A chair is a committee member.
+A co chair is a committee member.
+A track workshop chair is a person.
+The property "has as a committee chair" is a sub-property of "has as members".
+The property "has as a committee co chair" is a sub-property of "has as members".
+The property "was a committe co chair of" is a sub-property of "was a member of".
+The property "was a committee chair of" is a sub-property of "was a member of".
+<http://iasted#Tip>
+A tip is a money.
+A tip is paid in a conference restaurant.
+<http://cmt#readPaper>
+X is read paper Y if and only if Y is read by reviewer X.
+If X is read paper Y then X is a reviewer.
+If X is read paper Y then Y is a paper.
+<http://ekaw#reviewerOfPaper>
+X is reviewer of paper Y if and only if Y has as reviewer X.
+If X is reviewer of paper Y then X is a possible reviewer.
+If X is reviewer of paper Y then Y is a paper.
+<http://ekaw#Academic_Institution>
+No academic institution is an organising agency.
+If X is scientifically organises Y then X is an academic institution.
+If X is scientifically organised by Y then Y is an academic institution.
+An academic institution is an organisation.
+A research institute is an academic institution.
+An university is an academic institution.
+<http://iasted#Place>
+If X is equipped by Y then X is a place.
+If X is situated in Y then X is a building, is a city, or is a place.
+If X is connected with Y then Y is an item, or is a place.
+If X is held in Y then Y is a place, or is a time.
+If X is present in Y then Y is a place, or is a time.
+If X is situated in Y then Y is a building, is a city, is a place, or is a state.
+If X is speak in Y then Y is a place, or is a time.
+A building is a place.
+A conference hall is a place.
+A hotel room is a place.
+A main office is a place.
+A place is a thing.
+A place is situated in a conference city.
+A place is situated in a conference state.
+A session room is a place.
+<http://conference#Conference_announcement>
+A conference announcement is a conference document.
+<http://edas#Programme>
+No meal menu is a programme.
+No paper is a programme.
+No programme is a review.
+No programme is a slide set.
+X belongs to event Y if and only if Y has as programme X.
+If X belongs to event Y then X is a programme.
+If X has as programme Y then X is a conference event.
+If X has as programme Y then Y is a programme.
+A programme is a document.
+<http://iasted#Item>
+If X is go through Y then X is an item.
+If X is given by Y then X is an activity, or is an item.
+If X is given to Y then X is an item.
+If X is made from Y then X is an item.
+If X is needed for Y then X is an item.
+If X is prepared by Y then X is an item.
+If X is sent after Y then X is an item.
+If X is sent before Y then X is an item.
+If X is sent by Y then X is an item.
+If X is signed by Y then X is an item.
+If X is used by Y then X is an item.
+If X is used for Y then X is an item.
+If X is writen by Y then X is an item.
+If X is give Y then Y is an activity, or is an item.
+If X is connected with Y then Y is an item, or is a place.
+If X is equipped by Y then Y is an item.
+If X is made from Y then Y is an item.
+If X is paid for Y then Y is an activity, or is an item.
+If X is paid with Y then Y is an item.
+If X is need Y then Y is an item.
+If X is obtain Y then Y is an item.
+If X is prepare Y then Y is an item.
+If X is send Y then Y is an item.
+If X is sign Y then Y is an item.
+If X is write Y then Y is an item.
+An audiovisual equipment is an item.
+A card is an item.
+A document is an item.
+A publication is an item.
+A transport vehicle is an item.
+<http://sigkdd#Award>
+An award is defined as something that is awarded by an organizator.
+X is awarded by Y if and only if Y is award X.
+If X is awarded by Y then X is an award.
+If X is award Y then Y is an award.
+If X is obtain Y then Y is an award.
+An author of paper is award a best applications paper award.
+An author of paper is award a best research paper award.
+An author of paper student is award a best student paper award.
+A best applications paper award is an award.
+A best paper awards committee is a committee.
+A best research paper award is an award.
+A best student paper award is an award.
+<http://ekaw#Event>
+The property "is part of event" is transitive.
+No conference is a social event.
+No contributed talk is a social event.
+No event is a person.
+No invited talk is a social event.
+No social event is a track.
+No social event is a tutorial.
+No social event is a workshop.
+X is event on list Y if and only if Y lists event X.
+X is part of event Y if and only if Y has as event X.
+If X covers topic Y then X is an event, or is a paper.
+If X is event on list Y then X is an event.
+If X has as event Y then X is an event.
+If X is held in Y then X is an event.
+If X lists event Y then X is a programme brochure, or is a web site.
+If X is organised by Y then X is an event.
+If X is part of event Y then X is an event.
+If X is event on list Y then Y is a programme brochure, or is a web site.
+If X has as event Y then Y is an event.
+If X is inverse of part of 7 Y then Y is an event.
+If X lists event Y then Y is an event.
+If X is location of Y then Y is an event.
+If X organises Y then Y is an event.
+If X is part of event Y then Y is an event.
+If X is topic covered by Y then Y is an event, or is a paper.
+A conference is a scientific event.
+A conference banquet is a social event.
+A conference session is part of event a conference.
+A conference trip is a social event.
+An individual presentation is a scientific event.
+A scientific event is an event.
+A session is a scientific event.
+A session is part of event only something that is a conference, is a track, or is a workshop.
+A session has as event an individual presentation.
+A session is part of event something that is a conference, or is a workshop.
+A social event is an event.
+A track is a scientific event.
+A workshop is a scientific event.
+The property "has as event" is a sub-property of "has as part".
+The property "is part of event" is a sub-property of "is part of".
+<http://iasted#Publication>
+A book proceeding is a publication.
+A cd proceening is a publication.
+A publication is an item.
+A publication is made from a final manuscript.
+<http://cmt#reviewerBiddingStartedBy>
+X is start reviewer bidding Y if and only if Y is reviewer bidding started by X.
+If X is reviewer bidding started by Y then X is a conference.
+If X is reviewer bidding started by Y then Y is an administrator.
+<http://confOf#hasAdministrativeEvent>
+<http://conference#Conference_part>
+If X has as a name Y then X is a conference, is a conference part, is a conference proceedings, is a publisher, or is a topic.
+No active conference participant is a passive conference participant.
+A conference participant is defined as something that is an active conference participant, or is a passive conference participant.
+X has as a track workshop tutorial topic Y if and only if Y is a topis of conference parts X.
+If X gives presentations Y then X is an active conference participant.
+If X has as a track workshop tutorial chair Y then X is a conference part.
+If X has as a track workshop tutorial topic Y then X is a conference part.
+If X is a topis of conference parts Y then X is a topic.
+If X is part of conference volumes Y then X is a conference part.
+If X has as parts Y then Y is a conference part.
+If X is a topis of conference parts Y then Y is a conference part.
+If X is given by Y then Y is an active conference participant.
+If X was a track workshop chair of Y then Y is a conference part.
+An active conference participant is a conference contributor.
+An active conference participant is a conference participant.
+An active conference participant is an invited speaker, or is a regular author.
+A conference participant is a person.
+A passive conference participant is a conference participant.
+A track is a conference part.
+A tutorial is a conference part.
+A workshop is a conference part.
+<http://ekaw#Event>
+The property "is part of event" is transitive.
+No conference is a social event.
+No contributed talk is a social event.
+No event is a person.
+No invited talk is a social event.
+No social event is a track.
+No social event is a tutorial.
+No social event is a workshop.
+X is event on list Y if and only if Y lists event X.
+X is part of event Y if and only if Y has as event X.
+If X covers topic Y then X is an event, or is a paper.
+If X is event on list Y then X is an event.
+If X has as event Y then X is an event.
+If X is held in Y then X is an event.
+If X lists event Y then X is a programme brochure, or is a web site.
+If X is organised by Y then X is an event.
+If X is part of event Y then X is an event.
+If X is event on list Y then Y is a programme brochure, or is a web site.
+If X has as event Y then Y is an event.
+If X is inverse of part of 7 Y then Y is an event.
+If X lists event Y then Y is an event.
+If X is location of Y then Y is an event.
+If X organises Y then Y is an event.
+If X is part of event Y then Y is an event.
+If X is topic covered by Y then Y is an event, or is a paper.
+A conference is a scientific event.
+A conference banquet is a social event.
+A conference session is part of event a conference.
+A conference trip is a social event.
+An individual presentation is a scientific event.
+A scientific event is an event.
+A session is a scientific event.
+A session is part of event only something that is a conference, is a track, or is a workshop.
+A session has as event an individual presentation.
+A session is part of event something that is a conference, or is a workshop.
+A social event is an event.
+A track is a scientific event.
+A workshop is a scientific event.
+The property "has as event" is a sub-property of "has as part".
+The property "is part of event" is a sub-property of "is part of".
+<http://conference#Invited_talk>
+No invited talk is a poster.
+No invited talk is a regular contribution.
+A conference contribution is defined as something that is an invited talk, is a poster, or is a regular contribution.
+An invited speaker is defined as something that contributes an invited talk.
+An invited talk is a presentation.
+<http://ekaw#Invited_Talk>
+No conference is an invited talk.
+No contributed talk is an invited talk.
+No invited talk is a session.
+No invited talk is a social event.
+No invited talk is a track.
+No invited talk is a tutorial.
+No invited talk is a workshop.
+A conference proceedings is volume contains paper only something that is a conference paper, or is an invited talk abstract.
+An invited talk is an individual presentation.
+An invited talk abstract is an abstract.
+A proceedings is volume contains paper only something that is an accepted paper, or is an invited talk abstract.
+<http://conference#Presentation>
+A conference contribution is defined as something that is a presentation, or is a written contribution.
+X gives presentations Y if and only if Y is given by X.
+If X gives presentations Y then X is an active conference participant.
+If X has as an abstract Y then X is a paper, is a poster, or is a presentation.
+If X is given by Y then X is a presentation.
+If X gives presentations Y then Y is a presentation.
+If X is the 1th part of Y then Y is a paper, is a poster, or is a presentation.
+An invited talk is a presentation.
+A presentation is a conference contribution.
+<http://edas#TalkEvent>
+No organizational meeting is a talk event.
+No paper presentation is a talk event.
+No talk event is a workshop.
+A closing talk is a talk event.
+A talk event is an academic event.
+A welcome talk is a talk event.
+<http://confOf#Member_PC>
+If X is expert on Y then X is a member pc.
+If X reviewes Y then X is a member pc.
+A member pc is a person.
+A member pc is expert on only a topic.
+A member pc reviewes only a contribution.
+A member pc is expert on a topic.
+A member pc reviewes a contribution.
+<http://edas#Reviewer>
+A reviewer is defined as a person that is reviewing a paper.
+If X has as review history Y then X is a reviewer.
+If X is reviewing Y then X is a conference chair, is a reviewer, is a session chair, or is a tpcmember.
+If X is review history of Y then Y is a reviewer.
+If X is reviewed by Y then Y is a conference chair, is a reviewer, is a session chair, or is a tpcmember.
+<http://ekaw#Paper_Author>
+A paper author is a person.
+<http://sigkdd#Author_of_paper>
+An author of paper is an author.
+An author of paper is award a best applications paper award.
+An author of paper is award a best research paper award.
+An author of paper student is an author.
+An author of paper student is award a best student paper award.
+<http://conference#Call_for_participation>
+A call for participation is a conference document.
+<http://iasted#Transparency>
+An author is prepare a transparency.
+A transparency is a document.
+A transparency is prepared by a speaker.
+<http://iasted#has_amount_of>
+<http://sigkdd#Price>
+If X is price Y then X is a registration fee.
+If X is price Y then Y is an int.
+<http://cmt#AuthorNotReviewer>
+No author not reviewer is a program committee member.
+No author not reviewer is a reviewer.
+An author not reviewer is an author.
+<http://iasted#Author_book_proceedings_included>
+An author book proceedings included is an author.
+An author book proceedings included is obtain a book proceeding.
+<http://ekaw#Organisation>
+No organisation is a person.
+If X organises Y then X is an organisation, or is a person.
+If X is publisher of Y then X is an organisation.
+If X is technically organises Y then X is an organisation.
+If X is organised by Y then Y is an organisation, or is a person.
+An academic institution is an organisation.
+An organising agency is an organisation.
+A proceedings publisher is an organisation.
+<http://iasted#Building>
+A delegate is defined as something that is go through a registration, is present in a conference building, and is present in a conference days.
+If X is occupied by Y then X is a building, is a city, or is a state.
+If X is situated in Y then X is a building, is a city, or is a place.
+If X is visited by Y then X is a building, is a city, or is a state.
+If X is paid in Y then Y is a building.
+If X is situated in Y then Y is a building, is a city, is a place, or is a state.
+If X is occupy Y then Y is a building, is a city, or is a state.
+A building is a place.
+A conference airport is a building.
+A conference building is a building.
+A conference building is occupied by a delegate.
+A conference building is situated in a conference city.
+A conference building is situated in a conference state.
+A conference hall is situated in a conference building.
+A conference hotel is a building.
+A conference restaurant is a building.
+A presenter house is a building.
+A presenter university is a building.
+A session room is situated in a conference building.
+A sponsor company house is a building.
+<http://confOf#Working_event>
+If X is default choice Y then X is a social event, or is a working event.
+If X has as v a t Y then X is a social event, or is a working event.
+If X has as short title Y then X is a social event, or is a working event.
+If X has as title Y then X is a social event, or is a working event.
+If X is location Y then X is a social event, or is a working event.
+If X is max choice Y then X is a social event, or is a working event.
+If X is min choice Y then X is a social event, or is a working event.
+No administrative event is a working event.
+No social event is a working event.
+If X has as administrative event Y then X is a working event.
+If X has as topic Y then X is a working event.
+A conference is a working event.
+A tutorial is a working event.
+A working event is an event.
+A working event is default choice exactly one thing.
+A working event has as title exactly one thing.
+A working event is location exactly one thing.
+A working event has as topic only a topic.
+A working event has as topic a topic.
+A workshop is a working event.
+<http://ekaw#Multi_author_Volume>
+No flyer is a multi author volume.
+No multi author volume is a paper.
+No multi author volume is a programme brochure.
+No multi author volume is a review.
+No multi author volume is a web site.
+If X is publisher of Y then Y is a flyer, is a multi author volume, is a programme brochure, or is a web site.
+A multi author volume is a document.
+A proceedings is a multi author volume.
+<http://conference#Poster>
+No invited talk is a poster.
+No poster is a regular contribution.
+A conference contribution is defined as something that is an invited talk, is a poster, or is a regular contribution.
+If X has as an abstract Y then X is a paper, is a poster, or is a presentation.
+If X is the 1th part of Y then Y is a paper, is a poster, or is a presentation.
+A poster is a conference contribution.
+A submitted contribution is a poster, or is a regular contribution.
+A written contribution is a poster, or is a regular contribution.
+<http://ekaw#Flyer>
+No flyer is a multi author volume.
+No flyer is a paper.
+No flyer is a proceedings.
+No flyer is a programme brochure.
+No flyer is a review.
+No flyer is a web site.
+If X is publisher of Y then Y is a flyer, is a multi author volume, is a programme brochure, or is a web site.
+A flyer is a document.
+<http://cmt#assignedTo>
+X has as been assigned Y if and only if Y is assigned to X.
+If X is assigned to Y then X is a paper.
+If X is assigned to Y then Y is a reviewer.
+<http://ekaw#hasReview>
+<http://conference#Topic>
+The object property "has as a topic or a submission contribution" is functional.
+If X has as a name Y then X is a conference, is a conference part, is a conference proceedings, is a publisher, or is a topic.
+X has as a topic or a submission contribution Y if and only if Y has as been assigned a review reference X.
+X has as a track workshop tutorial topic Y if and only if Y is a topis of conference parts X.
+If X belongs to a review reference Y then X is a topic.
+If X has as a topic or a submission contribution Y then X is a review preference.
+If X has as a track workshop tutorial topic Y then X is a conference part.
+If X has as been assigned a review reference Y then X is a submitted contribution, or is a topic.
+If X is a topis of conference parts Y then X is a topic.
+If X has as a topic or a submission contribution Y then Y is a submitted contribution, or is a topic.
+If X has as a track workshop tutorial topic Y then Y is a topic.
+A review preference has as a topic or a submission contribution something that is a submitted contribution, or is a topic.
+<http://ekaw#Event>
+The property "is part of event" is transitive.
+No conference is a social event.
+No contributed talk is a social event.
+No event is a person.
+No invited talk is a social event.
+No social event is a track.
+No social event is a tutorial.
+No social event is a workshop.
+X is event on list Y if and only if Y lists event X.
+X is part of event Y if and only if Y has as event X.
+If X covers topic Y then X is an event, or is a paper.
+If X is event on list Y then X is an event.
+If X has as event Y then X is an event.
+If X is held in Y then X is an event.
+If X lists event Y then X is a programme brochure, or is a web site.
+If X is organised by Y then X is an event.
+If X is part of event Y then X is an event.
+If X is event on list Y then Y is a programme brochure, or is a web site.
+If X has as event Y then Y is an event.
+If X is inverse of part of 7 Y then Y is an event.
+If X lists event Y then Y is an event.
+If X is location of Y then Y is an event.
+If X organises Y then Y is an event.
+If X is part of event Y then Y is an event.
+If X is topic covered by Y then Y is an event, or is a paper.
+A conference is a scientific event.
+A conference banquet is a social event.
+A conference session is part of event a conference.
+A conference trip is a social event.
+An individual presentation is a scientific event.
+A scientific event is an event.
+A session is a scientific event.
+A session is part of event only something that is a conference, is a track, or is a workshop.
+A session has as event an individual presentation.
+A session is part of event something that is a conference, or is a workshop.
+A social event is an event.
+A track is a scientific event.
+A workshop is a scientific event.
+The property "has as event" is a sub-property of "has as part".
+The property "is part of event" is a sub-property of "is part of".
+<http://cmt#User>
+An administrator is an user.
+An author is an user.
+A reviewer is an user.
+An user is a person.
+<http://iasted#Delegate>
+A delegate is defined as something that is go through a registration, is present in a conference building, and is present in a conference days.
+A coctail reception is designed for a delegate.
+A coffee break is designed for a delegate.
+A conference hiker is a delegate.
+A conference building is occupied by a delegate.
+A conference city is visited by a delegate.
+A conference days is designed for a delegate.
+A conference restaurant is occupied by a delegate.
+A conference state is visited by a delegate.
+A deadline is designed for a delegate.
+A delegate is a person.
+A delegate is need a viza.
+A delegate is obtain an invitation letter.
+A delegate is occupy a presenter city.
+A delegate is occupy a presenter house.
+A delegate is occupy a presenter state.
+A delegate is pay a registration fee.
+A delegate is send a registration form.
+A form is given to a delegate.
+A full day tour is designed for a delegate.
+A hotel presenter is a delegate.
+An iasted member is a delegate.
+An iasted non member is a delegate.
+An invitation letter is designed for a delegate.
+A listener is a delegate.
+A mailing list is designed for a delegate.
+A non speaker is a delegate.
+An one day presenter is a delegate.
+A presenter city is occupied by a delegate.
+A presenter house is occupied by a delegate.
+A presenter state is occupied by a delegate.
+A registration is designed for a delegate.
+A registration fee is paid by a delegate.
+A registration form is sent by a delegate.
+A session chair is a delegate.
+A social program is designed for a delegate.
+A speaker is a delegate.
+A technical commitee is a delegate.
+A transport vehicle is used by a delegate.
+A trip day is designed for a delegate.
+A viza is needed for a delegate.
+<http://edas#hasMember>
+<http://ekaw#writtenBy>
+X is written by Y if and only if Y is author of X.
+If X is review written by Y then X is a review.
+If X is written by Y then X is a document.
+If X is review written by Y then Y is a possible reviewer.
+If X is written by Y then Y is a person.
+A camera ready paper is written by a conference participant.
+The property "is review written by" is a sub-property of "is written by".
+<http://confOf#hasPhone>
+<http://edas#hasPhone>
+<http://confOf#Contribution>
+If X is abstract Y then X is a contribution.
+If X is contact email Y then X is a contribution.
+If X has as keyword Y then X is a contribution.
+If X has as title Y then X is a contribution.
+If X is remark Y then X is a contribution.
+No city is a contribution.
+No contribution is a country.
+No contribution is an event.
+No contribution is an organization.
+No contribution is a person.
+No contribution is a topic.
+If X deals with Y then X is a contribution.
+If X is written by Y then X is a contribution.
+If X reviewes Y then Y is a contribution.
+If X writes Y then Y is a contribution.
+An author writes only a contribution.
+An author writes a contribution.
+A contribution is a thing.
+A contribution is abstract exactly one thing.
+A contribution has as title exactly one thing.
+A contribution is contact email at least one thing.
+A contribution has as keyword at least one thing.
+A contribution deals with only a topic.
+A contribution deals with a topic.
+A member pc reviewes only a contribution.
+A member pc reviewes a contribution.
+A paper is a contribution.
+A poster is a contribution.
+A short paper is a contribution.
+<http://sigkdd#Award>
+An award is defined as something that is awarded by an organizator.
+X is awarded by Y if and only if Y is award X.
+If X is awarded by Y then X is an award.
+If X is award Y then Y is an award.
+If X is obtain Y then Y is an award.
+An author of paper is award a best applications paper award.
+An author of paper is award a best research paper award.
+An author of paper student is award a best student paper award.
+A best applications paper award is an award.
+A best paper awards committee is a committee.
+A best research paper award is an award.
+A best student paper award is an award.
+<http://cmt#reviewsPerPaper>
+The data property "reviews per paper" is functional.
+If X reviews per paper Y then X is a conference.
+If X reviews per paper Y then Y is an int.
+A conference reviews per paper exactly one thing.
+<http://conference#has_a_volume>
+<http://conference#Accepted_contribution>
+No accepted contribution is a rejected contribution.
+A reviewed contribution is defined as something that is an accepted contribution, or is a rejected contribution.
+An accepted contribution is a reviewed contribution.
+A camera ready contribution is an accepted contribution.
+<http://confOf#Event>
+If X is default choice Y then X is a social event, or is a working event.
+If X ends on Y then X is an event.
+If X has as v a t Y then X is a social event, or is a working event.
+If X has as short title Y then X is a social event, or is a working event.
+If X has as title Y then X is a social event, or is a working event.
+If X is location Y then X is a social event, or is a working event.
+If X is max choice Y then X is a social event, or is a working event.
+If X is min choice Y then X is a social event, or is a working event.
+If X starts on Y then X is an event.
+No administrative event is a social event.
+No administrative event is a working event.
+No camera ready event is a registration of participants event.
+No camera ready event is a reviewing event.
+No camera ready event is a reviewing results event.
+No camera ready event is a submission event.
+No city is an event.
+No contribution is an event.
+No country is an event.
+No event is an organization.
+No event is a person.
+No event is a topic.
+No registration of participants event is a reviewing event.
+No registration of participants event is a reviewing results event.
+No registration of participants event is a submission event.
+No reviewing event is a reviewing results event.
+No reviewing event is a submission event.
+No reviewing results event is a submission event.
+No social event is a working event.
+If X follows Y then X is an administrative event.
+If X has as administrative event Y then X is a working event.
+If X has as topic Y then X is a working event.
+If X is parallel with Y then X is an administrative event.
+If X follows Y then Y is an administrative event.
+If X has as administrative event Y then Y is an administrative event.
+If X is parallel with Y then Y is an administrative event.
+An administrative event is an event.
+A banquet is a social event.
+A camera ready event is an administrative event.
+A conference is a working event.
+A reception is a social event.
+A registration of participants event is an administrative event.
+A reviewing event is an administrative event.
+A reviewing results event is an administrative event.
+A social event is an event.
+A social event is default choice exactly one thing.
+A social event has as title exactly one thing.
+A social event is location exactly one thing.
+A submission event is an administrative event.
+A trip is a social event.
+A tutorial is a working event.
+A working event is an event.
+A working event is default choice exactly one thing.
+A working event has as title exactly one thing.
+A working event is location exactly one thing.
+A working event has as topic only a topic.
+A working event has as topic a topic.
+A workshop is a working event.
+<http://edas#Topic>
+No antennas topic is a cadtopic.
+No antennas topic is a communication theory topic.
+No antennas topic is a communications topic.
+No antennas topic is a computer architecture topic.
+No antennas topic is a computer networks topic.
+No antennas topic is a cryptography topic.
+No antennas topic is a medicine topic.
+No antennas topic is a microelectronics topic.
+No antennas topic is a mobile computing topic.
+No antennas topic is a multimedia topic.
+No antennas topic is an operating topicsystems.
+No antennas topic is a parallel and distributed computing topic.
+No antennas topic is a performance topic.
+No antennas topic is a powerline transmission topic.
+No antennas topic is a radio communications topic.
+No antennas topic is a satellite and space communications topic.
+No antennas topic is a security topic.
+No antennas topic is a signal processing topic.
+No antennas topic is a test only topic.
+No antennas topic is a wireless communications topic.
+No cadtopic is a communication theory topic.
+No cadtopic is a communications topic.
+No cadtopic is a computer architecture topic.
+No cadtopic is a computer networks topic.
+No cadtopic is a cryptography topic.
+No cadtopic is a medicine topic.
+No cadtopic is a microelectronics topic.
+No cadtopic is a mobile computing topic.
+No cadtopic is a multimedia topic.
+No cadtopic is an operating topicsystems.
+No cadtopic is a parallel and distributed computing topic.
+No cadtopic is a performance topic.
+No cadtopic is a powerline transmission topic.
+No cadtopic is a radio communications topic.
+No cadtopic is a satellite and space communications topic.
+No cadtopic is a security topic.
+No cadtopic is a signal processing topic.
+No cadtopic is a test only topic.
+No cadtopic is a wireless communications topic.
+No call is a topic.
+No communication theory topic is a communications topic.
+No communication theory topic is a computer architecture topic.
+No communication theory topic is a computer networks topic.
+No communication theory topic is a cryptography topic.
+No communication theory topic is a medicine topic.
+No communication theory topic is a microelectronics topic.
+No communication theory topic is a mobile computing topic.
+No communication theory topic is a multimedia topic.
+No communication theory topic is an operating topicsystems.
+No communication theory topic is a parallel and distributed computing topic.
+No communication theory topic is a performance topic.
+No communication theory topic is a powerline transmission topic.
+No communication theory topic is a radio communications topic.
+No communication theory topic is a satellite and space communications topic.
+No communication theory topic is a security topic.
+No communication theory topic is a signal processing topic.
+No communication theory topic is a test only topic.
+No communication theory topic is a wireless communications topic.
+No communications topic is a computer architecture topic.
+No communications topic is a computer networks topic.
+No communications topic is a cryptography topic.
+No communications topic is a medicine topic.
+No communications topic is a microelectronics topic.
+No communications topic is a mobile computing topic.
+No communications topic is a multimedia topic.
+No communications topic is an operating topicsystems.
+No communications topic is a parallel and distributed computing topic.
+No communications topic is a performance topic.
+No communications topic is a powerline transmission topic.
+No communications topic is a radio communications topic.
+No communications topic is a satellite and space communications topic.
+No communications topic is a security topic.
+No communications topic is a signal processing topic.
+No communications topic is a test only topic.
+No communications topic is a wireless communications topic.
+No computer architecture topic is a computer networks topic.
+No computer architecture topic is a cryptography topic.
+No computer architecture topic is a medicine topic.
+No computer architecture topic is a microelectronics topic.
+No computer architecture topic is a mobile computing topic.
+No computer architecture topic is a multimedia topic.
+No computer architecture topic is an operating topicsystems.
+No computer architecture topic is a parallel and distributed computing topic.
+No computer architecture topic is a performance topic.
+No computer architecture topic is a powerline transmission topic.
+No computer architecture topic is a radio communications topic.
+No computer architecture topic is a satellite and space communications topic.
+No computer architecture topic is a security topic.
+No computer architecture topic is a signal processing topic.
+No computer architecture topic is a test only topic.
+No computer architecture topic is a wireless communications topic.
+No computer networks aapplications topic is a computer networks enterprise topic.
+No computer networks aapplications topic is a computer networks management topic.
+No computer networks aapplications topic is a computer networks measurements topic.
+No computer networks aapplications topic is a computer networks optical topic.
+No computer networks aapplications topic is a computer networks security topic.
+No computer networks aapplications topic is a computer networks sensor topic.
+No computer networks aapplications topic is a computer networks switching topic.
+No computer networks enterprise topic is a computer networks management topic.
+No computer networks enterprise topic is a computer networks measurements topic.
+No computer networks enterprise topic is a computer networks optical topic.
+No computer networks enterprise topic is a computer networks security topic.
+No computer networks enterprise topic is a computer networks sensor topic.
+No computer networks enterprise topic is a computer networks switching topic.
+No computer networks management topic is a computer networks measurements topic.
+No computer networks management topic is a computer networks optical topic.
+No computer networks management topic is a computer networks security topic.
+No computer networks management topic is a computer networks sensor topic.
+No computer networks management topic is a computer networks switching topic.
+No computer networks measurements topic is a computer networks optical topic.
+No computer networks measurements topic is a computer networks security topic.
+No computer networks measurements topic is a computer networks sensor topic.
+No computer networks measurements topic is a computer networks switching topic.
+No computer networks optical topic is a computer networks security topic.
+No computer networks optical topic is a computer networks sensor topic.
+No computer networks optical topic is a computer networks switching topic.
+No computer networks security topic is a computer networks sensor topic.
+No computer networks security topic is a computer networks switching topic.
+No computer networks sensor topic is a computer networks switching topic.
+No computer networks topic is a cryptography topic.
+No computer networks topic is a medicine topic.
+No computer networks topic is a microelectronics topic.
+No computer networks topic is a mobile computing topic.
+No computer networks topic is a multimedia topic.
+No computer networks topic is an operating topicsystems.
+No computer networks topic is a parallel and distributed computing topic.
+No computer networks topic is a performance topic.
+No computer networks topic is a powerline transmission topic.
+No computer networks topic is a radio communications topic.
+No computer networks topic is a satellite and space communications topic.
+No computer networks topic is a security topic.
+No computer networks topic is a signal processing topic.
+No computer networks topic is a test only topic.
+No computer networks topic is a wireless communications topic.
+No conference is a topic.
+No conference event is a topic.
+No conference session is a topic.
+No contact information is a topic.
+No country is a topic.
+No cryptography topic is a medicine topic.
+No cryptography topic is a microelectronics topic.
+No cryptography topic is a mobile computing topic.
+No cryptography topic is a multimedia topic.
+No cryptography topic is an operating topicsystems.
+No cryptography topic is a parallel and distributed computing topic.
+No cryptography topic is a performance topic.
+No cryptography topic is a powerline transmission topic.
+No cryptography topic is a radio communications topic.
+No cryptography topic is a satellite and space communications topic.
+No cryptography topic is a security topic.
+No cryptography topic is a signal processing topic.
+No cryptography topic is a test only topic.
+No cryptography topic is a wireless communications topic.
+No document is a topic.
+No medicine topic is a microelectronics topic.
+No medicine topic is a mobile computing topic.
+No medicine topic is a multimedia topic.
+No medicine topic is an operating topicsystems.
+No medicine topic is a parallel and distributed computing topic.
+No medicine topic is a performance topic.
+No medicine topic is a powerline transmission topic.
+No medicine topic is a radio communications topic.
+No medicine topic is a satellite and space communications topic.
+No medicine topic is a security topic.
+No medicine topic is a signal processing topic.
+No medicine topic is a test only topic.
+No medicine topic is a wireless communications topic.
+No microelectronics topic is a mobile computing topic.
+No microelectronics topic is a multimedia topic.
+No microelectronics topic is an operating topicsystems.
+No microelectronics topic is a parallel and distributed computing topic.
+No microelectronics topic is a performance topic.
+No microelectronics topic is a powerline transmission topic.
+No microelectronics topic is a radio communications topic.
+No microelectronics topic is a satellite and space communications topic.
+No microelectronics topic is a security topic.
+No microelectronics topic is a signal processing topic.
+No microelectronics topic is a test only topic.
+No microelectronics topic is a wireless communications topic.
+No mobile computing topic is a multimedia topic.
+No mobile computing topic is an operating topicsystems.
+No mobile computing topic is a parallel and distributed computing topic.
+No mobile computing topic is a performance topic.
+No mobile computing topic is a powerline transmission topic.
+No mobile computing topic is a radio communications topic.
+No mobile computing topic is a satellite and space communications topic.
+No mobile computing topic is a security topic.
+No mobile computing topic is a signal processing topic.
+No mobile computing topic is a test only topic.
+No mobile computing topic is a wireless communications topic.
+No multimedia topic is an operating topicsystems.
+No multimedia topic is a parallel and distributed computing topic.
+No multimedia topic is a performance topic.
+No multimedia topic is a powerline transmission topic.
+No multimedia topic is a radio communications topic.
+No multimedia topic is a satellite and space communications topic.
+No multimedia topic is a security topic.
+No multimedia topic is a signal processing topic.
+No multimedia topic is a test only topic.
+No multimedia topic is a wireless communications topic.
+No operating topicsystems is a parallel and distributed computing topic.
+No operating topicsystems is a performance topic.
+No operating topicsystems is a powerline transmission topic.
+No operating topicsystems is a radio communications topic.
+No operating topicsystems is a satellite and space communications topic.
+No operating topicsystems is a security topic.
+No operating topicsystems is a signal processing topic.
+No operating topicsystems is a test only topic.
+No operating topicsystems is a wireless communications topic.
+No organization is a topic.
+No parallel and distributed computing topic is a performance topic.
+No parallel and distributed computing topic is a powerline transmission topic.
+No parallel and distributed computing topic is a radio communications topic.
+No parallel and distributed computing topic is a satellite and space communications topic.
+No parallel and distributed computing topic is a security topic.
+No parallel and distributed computing topic is a signal processing topic.
+No parallel and distributed computing topic is a test only topic.
+No parallel and distributed computing topic is a wireless communications topic.
+No performance topic is a powerline transmission topic.
+No performance topic is a radio communications topic.
+No performance topic is a satellite and space communications topic.
+No performance topic is a security topic.
+No performance topic is a signal processing topic.
+No performance topic is a test only topic.
+No performance topic is a wireless communications topic.
+No person is a topic.
+No personal history is a topic.
+No place is a topic.
+No powerline transmission topic is a radio communications topic.
+No powerline transmission topic is a satellite and space communications topic.
+No powerline transmission topic is a security topic.
+No powerline transmission topic is a signal processing topic.
+No powerline transmission topic is a test only topic.
+No powerline transmission topic is a wireless communications topic.
+No radio communications topic is a satellite and space communications topic.
+No radio communications topic is a security topic.
+No radio communications topic is a signal processing topic.
+No radio communications topic is a test only topic.
+No radio communications topic is a wireless communications topic.
+No review form is a topic.
+No review question is a topic.
+No review rating is a topic.
+No satellite and space communications topic is a security topic.
+No satellite and space communications topic is a signal processing topic.
+No satellite and space communications topic is a test only topic.
+No satellite and space communications topic is a wireless communications topic.
+No security topic is a signal processing topic.
+No security topic is a test only topic.
+No security topic is a wireless communications topic.
+No signal processing topic is a test only topic.
+No signal processing topic is a wireless communications topic.
+No sponsorship is a topic.
+No test only topic is a wireless communications topic.
+X has as topic Y if and only if Y is topic of X.
+If X has as topic Y then X is a conference, or is a paper.
+If X is topic of Y then X is a topic.
+If X has as topic Y then Y is a topic.
+If X is topic of Y then Y is a conference, or is a paper.
+An antennas topic is a topic.
+A cadtopic is a topic.
+A communication theory topic is a topic.
+A communications topic is a topic.
+A computer architecture topic is a topic.
+A computer networks aapplications topic is a computer networks topic.
+A computer networks enterprise topic is a computer networks topic.
+A computer networks management topic is a computer networks topic.
+A computer networks measurements topic is a computer networks topic.
+A computer networks optical topic is a computer networks topic.
+A computer networks security topic is a computer networks topic.
+A computer networks sensor topic is a computer networks topic.
+A computer networks switching topic is a computer networks topic.
+A computer networks topic is a topic.
+A conference has as topic exactly one thing.
+A cryptography topic is a topic.
+A medicine topic is a topic.
+A microelectronics topic is a topic.
+A mobile computing topic is a topic.
+A multimedia topic is a topic.
+An operating topicsystems is a topic.
+A parallel and distributed computing topic is a topic.
+A performance topic is a topic.
+A powerline transmission topic is a topic.
+A radio communications topic is a topic.
+A satellite and space communications topic is a topic.
+A security topic is a topic.
+A signal processing topic is a topic.
+A test only topic is a topic.
+A wireless communications topic is a topic.
+<http://ekaw#Event>
+The property "is part of event" is transitive.
+No conference is a social event.
+No contributed talk is a social event.
+No event is a person.
+No invited talk is a social event.
+No social event is a track.
+No social event is a tutorial.
+No social event is a workshop.
+X is event on list Y if and only if Y lists event X.
+X is part of event Y if and only if Y has as event X.
+If X covers topic Y then X is an event, or is a paper.
+If X is event on list Y then X is an event.
+If X has as event Y then X is an event.
+If X is held in Y then X is an event.
+If X lists event Y then X is a programme brochure, or is a web site.
+If X is organised by Y then X is an event.
+If X is part of event Y then X is an event.
+If X is event on list Y then Y is a programme brochure, or is a web site.
+If X has as event Y then Y is an event.
+If X is inverse of part of 7 Y then Y is an event.
+If X lists event Y then Y is an event.
+If X is location of Y then Y is an event.
+If X organises Y then Y is an event.
+If X is part of event Y then Y is an event.
+If X is topic covered by Y then Y is an event, or is a paper.
+A conference is a scientific event.
+A conference banquet is a social event.
+A conference session is part of event a conference.
+A conference trip is a social event.
+An individual presentation is a scientific event.
+A scientific event is an event.
+A session is a scientific event.
+A session is part of event only something that is a conference, is a track, or is a workshop.
+A session has as event an individual presentation.
+A session is part of event something that is a conference, or is a workshop.
+A social event is an event.
+A track is a scientific event.
+A workshop is a scientific event.
+The property "has as event" is a sub-property of "has as part".
+The property "is part of event" is a sub-property of "is part of".
+<http://edas#Presenter>
+A presenter is an author.
+<http://sigkdd#Award>
+An award is defined as something that is awarded by an organizator.
+X is awarded by Y if and only if Y is award X.
+If X is awarded by Y then X is an award.
+If X is award Y then Y is an award.
+If X is obtain Y then Y is an award.
+An author of paper is award a best applications paper award.
+An author of paper is award a best research paper award.
+An author of paper student is award a best student paper award.
+A best applications paper award is an award.
+A best paper awards committee is a committee.
+A best research paper award is an award.
+A best student paper award is an award.
+<http://conference#is_given_by>
+X gives presentations Y if and only if Y is given by X.
+If X is given by Y then X is a presentation.
+If X is given by Y then Y is an active conference participant.
+<http://iasted#is_given_to>
+If X is given to Y then X is an item.
+If X is given to Y then Y is a person.
+A brief introduction for session chair is given to a session chair.
+A form is given to a delegate.
+<http://conference#Active_conference_participant>
+No active conference participant is a passive conference participant.
+A conference participant is defined as something that is an active conference participant, or is a passive conference participant.
+If X gives presentations Y then X is an active conference participant.
+If X is given by Y then Y is an active conference participant.
+An active conference participant is a conference contributor.
+An active conference participant is a conference participant.
+An active conference participant is an invited speaker, or is a regular author.
+<http://ekaw#Individual_Presentation>
+No individual presentation is a workshop.
+If X is presentation of paper Y then X is an individual presentation.
+If X is paper presented as Y then Y is an individual presentation.
+A contributed talk is an individual presentation.
+An individual presentation is a scientific event.
+An invited talk is an individual presentation.
+A session has as event an individual presentation.
+A tutorial is an individual presentation.
+<http://confOf#hasPhone>
+<http://sigkdd#Nation>
+If X is nation Y then X is a person.
+If X is nation Y then Y is a string.
+<http://conference#Written_contribution>
+A conference contribution is defined as something that is a presentation, or is a written contribution.
+A regular contribution is a written contribution.
+A submitted contribution is a written contribution.
+A written contribution is a conference contribution.
+A written contribution is a poster, or is a regular contribution.
+<http://ekaw#Evaluated_Paper>
+No camera ready paper is an evaluated paper.
+An accepted paper is an evaluated paper.
+An evaluated paper is an assigned paper.
+An evaluated paper has as review at least three things.
+A rejected paper is an evaluated paper.
+<http://confOf#Camera_Ready_event>
+No camera ready event is a registration of participants event.
+No camera ready event is a reviewing event.
+No camera ready event is a reviewing results event.
+No camera ready event is a submission event.
+A camera ready event is an administrative event.
+<http://ekaw#Camera_Ready_Paper>
+No accepted paper is a camera ready paper.
+No camera ready paper is an evaluated paper.
+No camera ready paper is a submitted paper.
+A camera ready paper is a paper.
+A camera ready paper is updated version of an accepted paper.
+A camera ready paper is written by a conference participant.
+A contributed talk is presentation of paper a camera ready paper.

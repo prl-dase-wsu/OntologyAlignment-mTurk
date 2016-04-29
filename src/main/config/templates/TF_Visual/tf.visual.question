@@ -1,0 +1,43 @@
+  <Question>
+    <QuestionIdentifier>QUESTION_ID</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <FormattedContent><![CDATA[
+        <font size="2" color="darkblue">Look at visual representation of relations between <b>LABEL_A</b>, <b>LABEL_B</b>, and other terms and concepts associated with them:</font>
+      ]]></FormattedContent>
+      <FormattedContent><![CDATA[
+        <table align="center">
+          <tr>
+            <td><img src="IMG_LINK_LABEL_A_AND_B" alt="image"  width="WIDTH" height="HEIGHT"/></td>
+          </tr>
+          <tr>
+            <td align="center"><font size="2" color="darkblue"><b>LABEL_A and LABEL_B</b></font></td>
+          </tr>
+        </table>
+      ]]></FormattedContent>
+      <FormattedContent><![CDATA[
+        <font size="2" color="blue">Based on the above visual, is <b>LABEL_A</b> the same as <b>LABEL_B</b>?</font>
+      ]]></FormattedContent>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>LABEL_A_EQUALS_LABEL_B</SelectionIdentifier>
+            <FormattedContent><![CDATA[
+              <font size="2" color="blue"><b>yes</b></font>
+            ]]></FormattedContent>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>LABEL_A_NOT_EQUAL_LABEL_B</SelectionIdentifier>
+            <FormattedContent><![CDATA[
+              <font size="2" color="blue"><b>no</b></font>
+            ]]></FormattedContent>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
